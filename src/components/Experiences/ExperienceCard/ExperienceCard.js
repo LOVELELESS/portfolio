@@ -18,18 +18,18 @@ const ExperienceCard = (props) => {
           <Typography variant="subtitle1">{props.text.title2}</Typography>
         </div>
       </CardContent>
-      {props.text.description &&
-        <CardContent>
+      <CardContent>
+        {props.text.description &&
           <Typography variant="body1">{props.text.description}</Typography>
-          {props.text.list &&
+        }
+        {props.text.list &&
             <ul>
               {props.text.list.map((listItems) => <li>
-                <Typography variant="body1">{listItems}</Typography>
+                <Typography variant="body2">{listItems}</Typography>
               </li>)}
             </ul>
-          }
-        </CardContent>
-      }
+        }
+      </CardContent>
     </Card>
   );
 };
