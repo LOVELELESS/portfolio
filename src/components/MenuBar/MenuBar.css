@@ -1,5 +1,13 @@
-.MenuBar {
-  border: 5px solid white;
-  background-color: green;
-  text-align: center;
+.MB {
+  border: 3px solid grey;
+}
+
+.MB-Avatar-Container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.MB-Avatar {
+  width: 9em !important;
+  height: 9em !important;
 }
