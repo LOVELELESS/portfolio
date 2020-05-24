@@ -1,5 +1,5 @@
 import React from "react";
-import {Avatar} from "@material-ui/core";
+import {Avatar, Typography} from "@material-ui/core";
 import pic from "./profile_pic.jpg";
 import "./Header.css";
 
@@ -9,9 +9,9 @@ const Header = () => {
       <div className="MB-Avatar-Container">
         <Avatar alt="Rayson Koh" className="MB-Avatar" src={pic} />
       </div>
-      <h1>Rayson Koh</h1>
-      <h2>Computer Science, Year 1</h2>
-      <h2>National University of Singapore</h2>
+      <Typography variant="h4" gutterBottom>Rayson Koh</Typography>
+      <Typography variant="h6" gutterBottom>Computer Science, Year 1</Typography>
+      <Typography variant="h5" gutterBottom>National University of Singapore</Typography>
     </div>
   );
 };

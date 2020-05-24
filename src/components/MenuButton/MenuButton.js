@@ -1,5 +1,5 @@
 import React from "react";
-import {IconButton} from "@material-ui/core";
+import {IconButton, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 
 // eslint-disable-next-line require-jsdoc
@@ -22,7 +22,7 @@ const MenuButton = (props) => {
     <div>
       <IconButton onClick={props.onClick} classes={{label: classes.iconButton}}>
         {props.renderIcon()}
-        <div>{props.text}</div>
+        <Typography variant="button" gutterBottom>{props.text}</Typography>
       </IconButton>
     </div>
   );

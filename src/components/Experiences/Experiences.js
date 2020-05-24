@@ -3,7 +3,7 @@ import React from "react";
 const Experiences = () => {
   return (
     <div>
-      THIS IS THE Experiences!
+      THIS IS THE EXPERIENCES COMPONENT!
     </div>
   );
 };

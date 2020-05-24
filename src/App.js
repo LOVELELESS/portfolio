@@ -31,7 +31,7 @@ function App() {
         <MenuButton
           renderIcon={() => <WorkIcon />}
           onClick={() => setBodyPage("experiences")}
-          text="Experience"
+          text="Experiences"
         />
         <MenuButton
           renderIcon={() => <SchoolIcon />}
