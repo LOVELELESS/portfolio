@@ -1,9 +1,11 @@
 .ExperienceCard {
   margin: 2em;
+  text-align: left;
 }
 
 .ExperienceCard-Title-Container {
   display: flex;
+  align-items: center;
 }
 
 .ExperienceCard-Title-Media-Container {
@@ -13,11 +15,7 @@
 }
 
 .ExperienceCard-Title-Media {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
-}
-
-.ExperienceCard-Body {
-  text-align: left;
 }
