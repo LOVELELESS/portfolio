@@ -32,16 +32,19 @@ function App() {
           renderIcon={() => <WorkIcon />}
           onClick={() => setBodyPage("experiences")}
           text="Experiences"
+          highlighted={bodyPage==="experiences"}
         />
         <MenuButton
           renderIcon={() => <SchoolIcon />}
           onClick={() => setBodyPage("academics")}
           text="Academics"
+          highlighted={bodyPage==="academics"}
         />
         <MenuButton
           renderIcon={() => <DeveloperModeIcon />}
           onClick={() => setBodyPage("projects")}
           text="Projects"
+          highlighted={bodyPage==="projects"}
         />
       </div>
       {renderContent()}

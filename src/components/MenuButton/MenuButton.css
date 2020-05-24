@@ -1,0 +1,11 @@
+.MenuButton {
+  margin: 1em 1em;
+}
+
+.MenuButton-Highlight {
+  background-color: rgba(42, 182, 238, 0.52) !important;
+}
+
+.MenuButton-Inherit {
+  background-color: inherit;
+}

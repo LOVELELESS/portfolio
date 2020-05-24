@@ -1,6 +1,7 @@
 import React from "react";
 import {IconButton, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
+import "./MenuButton.css";
 
 // eslint-disable-next-line require-jsdoc
 const MenuButton = (props) => {
@@ -18,9 +19,11 @@ const MenuButton = (props) => {
 
   const classes = useStyles();
 
+  const backgroundClass = props.highlighted ? "MenuButton-Highlight" : "MenuButton-Inherit";
+
   return (
-    <div>
-      <IconButton onClick={props.onClick} classes={{label: classes.iconButton}}>
+    <div className="MenuButton">
+      <IconButton onClick={props.onClick} className={backgroundClass} classes={{label: classes.iconButton}}>
         {props.renderIcon()}
         <Typography variant="button" gutterBottom>{props.text}</Typography>
       </IconButton>
