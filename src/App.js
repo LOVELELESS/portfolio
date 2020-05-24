@@ -1,10 +1,11 @@
 import React from "react";
-import MenuBar from './components/MenuBar/MenuBar';
+import Header from "./components/MenuBar/MenuBar";
 
+// eslint-disable-next-line require-jsdoc
 function App() {
   return (
     <div>
-      <MenuBar />
+      <Header />
     </div>
   );
 }
