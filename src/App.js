@@ -1,21 +1,50 @@
-import React from "react";
-import Header from "./components/Header/Header";
-import MenuButton from "./components/MenuButton/MenuButton";
+import React, {useState} from "react";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
+import Header from "./components/Header/Header";
+import MenuButton from "./components/MenuButton/MenuButton";
+import Experiences from "./components/Experiences/Experiences";
+import Academics from "./components/Academics/Academics";
+import Projects from "./components/Projects/Projects";
 import "./App.css";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
+  const [bodyPage, setBodyPage] = useState("experiences");
+
+  const renderContent = () => {
+    switch (bodyPage) {
+      case "experiences":
+        return <Experiences />;
+      case "academics":
+        return <Academics />;
+      case "projects":
+        return <Projects />;
+    }
+  };
+
   return (
     <div>
       <Header />
       <div className="Button-Group">
-        <MenuButton renderIcon={() => <WorkIcon />} text="Experience" />
-        <MenuButton renderIcon={() => <SchoolIcon />} text="Academics" />
-        <MenuButton renderIcon={() => <DeveloperModeIcon />} text="Projects" />
+        <MenuButton
+          renderIcon={() => <WorkIcon />}
+          onClick={() => setBodyPage("experiences")}
+          text="Experience"
+        />
+        <MenuButton
+          renderIcon={() => <SchoolIcon />}
+          onClick={() => setBodyPage("academics")}
+          text="Academics"
+        />
+        <MenuButton
+          renderIcon={() => <DeveloperModeIcon />}
+          onClick={() => setBodyPage("projects")}
+          text="Projects"
+        />
       </div>
+      {renderContent()}
     </div>
   );
 }

@@ -20,7 +20,7 @@ const MenuButton = (props) => {
 
   return (
     <div>
-      <IconButton classes={{label: classes.iconButton}}>
+      <IconButton onClick={props.onClick} classes={{label: classes.iconButton}}>
         {props.renderIcon()}
         <div>{props.text}</div>
       </IconButton>
