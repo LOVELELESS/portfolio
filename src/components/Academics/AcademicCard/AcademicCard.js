@@ -7,7 +7,6 @@ import Typography from "@material-ui/core/Typography";
 import "./AcademicCard.css";
 
 const AcademicCard = (props) => {
-  console.log(props.link);
   return (
     <Card className="AcademicCard">
       <CardContent>

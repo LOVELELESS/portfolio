@@ -11,7 +11,6 @@ import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import ccna from "./ccna_routerswitching_large.jpg";
 import ccnaPdf from "./ccna_cert.pdf";
-import transcript from "./transcript.pdf";
 import "./AtAGlance.css";
 
 const AtAGlance = () => {
@@ -55,11 +54,9 @@ const AtAGlance = () => {
               </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
-              <a style={{textDecoration: "none"}} href={transcript} download="Rayson_Transcript.pdf">
-                <Button variant="outlined" color="secondary" size="small">
-                  <Typography variant="overline">Full Transcript</Typography>
-                </Button>
-              </a>
+              <Button variant="outlined" color="secondary" size="small" disabled>
+                <Typography variant="overline">Full Transcript (Please request for it)</Typography>
+              </Button>
             </CardActions>
           </Card>
           <Card>

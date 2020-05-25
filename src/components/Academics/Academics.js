@@ -47,7 +47,6 @@ const Academics = () => {
               moduleName: "Programming Methodology",
               moduleFaculty: "School of Computing",
               moduleGrade: "A",
-
             }}/>
         </ExpansionPanelDetails>
       </ExpansionPanel>
