@@ -10,6 +10,8 @@ import CardContent from "@material-ui/core/CardContent";
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import ccna from "./ccna_routerswitching_large.jpg";
+import ccnaPdf from "./ccna_cert.pdf";
+import transcript from "./transcript.pdf";
 import "./AtAGlance.css";
 
 const AtAGlance = () => {
@@ -53,9 +55,11 @@ const AtAGlance = () => {
               </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
-              <Button variant="outlined" color="secondary" size="small">
-                <Typography variant="overline">Full Transcript</Typography>
-              </Button>
+              <a style={{textDecoration: "none"}} href={transcript} download="Rayson_Transcript.pdf">
+                <Button variant="outlined" color="secondary" size="small">
+                  <Typography variant="overline">Full Transcript</Typography>
+                </Button>
+              </a>
             </CardActions>
           </Card>
           <Card>
@@ -77,12 +81,17 @@ const AtAGlance = () => {
               </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
-              <Button variant="outlined" color="secondary" size="small">
-                <Typography variant="overline">E-Certificate</Typography>
-              </Button>
-              <Button variant="outlined" size="small">
-                <Typography variant="overline">Learn More</Typography>
-              </Button>
+              <a style={{textDecoration: "none"}} href={ccnaPdf} download="Rayson_CCNA.pdf">
+                <Button variant="outlined" color="secondary" size="small">
+                  <Typography variant="overline">E-Certificate</Typography>
+                </Button>
+              </a>
+              <a style={{textDecoration: "none"}} target="_blank" rel="noopener noreferrer"
+                href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html">
+                <Button variant="outlined" size="small">
+                  <Typography variant="overline">Learn More</Typography>
+                </Button>
+              </a>
             </CardActions>
           </Card>
         </ExpansionPanelDetails>

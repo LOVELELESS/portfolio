@@ -9,7 +9,7 @@ import AtAGlance from "./AtAGlance/AtAGlance";
 import "./Academics.css";
 
 const Academics = () => {
-  const [modulesExpanded, setModulesExpanded] = useState(true);
+  const [modulesExpanded, setModulesExpanded] = useState(false);
 
   /**
    * Reason for having AcademicCard is to streamline Notable Modules section.
