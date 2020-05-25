@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import "./AcademicCard.css";
 
 const AcademicCard = (props) => {
+  console.log(props.link);
   return (
     <Card className="AcademicCard">
       <CardContent>
@@ -25,7 +26,10 @@ const AcademicCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <a style={{textDecoration: "none"}} target="_blank" rel="noopener noreferrer"
+          href={props.link}>
+          <Button size="small">Learn More</Button>
+        </a>
       </CardActions>
     </Card>
   );

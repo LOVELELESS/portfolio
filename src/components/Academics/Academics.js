@@ -26,24 +26,29 @@ const Academics = () => {
           </div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="Academics-Modules-EP-Details">
-          <AcademicCard text={{
-            moduleCode: "CS2030",
-            moduleName: "Programming Methodology II",
-            moduleFaculty: "School of Computing",
-            moduleGrade: "A",
-          }}/>
-          <AcademicCard text={{
-            moduleCode: "CS1231S",
-            moduleName: "Discrete Structures",
-            moduleFaculty: "School of Computing",
-            moduleGrade: "A",
-          }}/>
-          <AcademicCard text={{
-            moduleCode: "CS1010X",
-            moduleName: "Programming Methodology",
-            moduleFaculty: "School of Computing",
-            moduleGrade: "A",
-          }}/>
+          <AcademicCard link="https://nusmods.com/modules/CS2030/programming-methodology-ii"
+            text={{
+              moduleCode: "CS2030",
+              moduleName: "Programming Methodology II",
+              moduleFaculty: "School of Computing",
+              moduleGrade: "A",
+            }} />
+
+          <AcademicCard link="https://nusmods.com/modules/CS1231S/discrete-structures"
+            text={{
+              moduleCode: "CS1231S",
+              moduleName: "Discrete Structures",
+              moduleFaculty: "School of Computing",
+              moduleGrade: "A",
+            }}/>
+          <AcademicCard link="https://nusmods.com/modules/CS1010X/programming-methodology"
+            text={{
+              moduleCode: "CS1010X",
+              moduleName: "Programming Methodology",
+              moduleFaculty: "School of Computing",
+              moduleGrade: "A",
+
+            }}/>
         </ExpansionPanelDetails>
       </ExpansionPanel>
     </div>
