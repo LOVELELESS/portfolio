@@ -4,43 +4,24 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import {makeStyles} from "@material-ui/core/styles";
+import "./AcademicCard.css";
 
-const useStyles = makeStyles({
-  root: {
-    minWidth: 275,
-  },
-  bullet: {
-    display: "inline-block",
-    margin: "0 2px",
-    transform: "scale(0.8)",
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-});
-
-const AcademicCard = () => {
-  const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
-
+const AcademicCard = (props) => {
   return (
-    <Card className={classes.root}>
+    <Card className="AcademicCard">
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Total GPA
+        <Typography color="primary" variant="body1" gutterBottom>
+          {props.text.moduleCode}
         </Typography>
-        <Typography variant="h5" component="h2">
-          4.7 / 5.0
+        <Typography variant="h6">
+          {props.text.moduleName}
         </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          Specializations
+        <Typography variant="body1" color="textSecondary">
+          {props.text.moduleFaculty}
         </Typography>
-        <Typography variant="body2" component="p">
-          Database
+        <Typography className="AcademicCard-Grade" color="secondary">
+          <span>Grade:</span>
+          <span>{props.text.moduleGrade}</span>
         </Typography>
       </CardContent>
       <CardActions>

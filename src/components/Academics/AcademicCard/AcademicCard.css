@@ -1,0 +1,8 @@
+.AcademicCard {
+  margin: 1em 0;
+}
+
+.AcademicCard-Grade {
+  display: flex;
+  justify-content: space-between;
+}

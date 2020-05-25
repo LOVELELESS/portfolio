@@ -1,0 +1,15 @@
+.Academics {
+  margin: 2em;
+}
+
+.Academics-Modules-EP-Summary1 {
+  width: 100%;
+  text-align: center;
+}
+
+.Academics-Modules-EP-Details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
