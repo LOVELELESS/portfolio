@@ -1,0 +1,30 @@
+.AtAGlance-EP-Details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.AtAGlance-EP-Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AtAGlance-EP-Summary1 {
+  width: 100%;
+  text-align: center;
+}
+
+.AtAGlance-EP-Avatar {
+  width: 5em !important;
+  height: 5em !important;
+}
+
+.AtAGlance-EP-CardActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AtAGlance-EP-UL {
+  text-align: left;
+}
