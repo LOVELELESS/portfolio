@@ -11,7 +11,7 @@ import "./App.css";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
-  const [bodyPage, setBodyPage] = useState("experiences");
+  const [bodyPage, setBodyPage] = useState("academics");
 
   const renderContent = () => {
     switch (bodyPage) {
