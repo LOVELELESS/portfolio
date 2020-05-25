@@ -14,6 +14,7 @@ const MenuButton = (props) => {
     iconButton: {
       display: "flex",
       flexDirection: "column",
+      color: (props.highlighted ? "white" : "inherit"),
     },
   }));
 
