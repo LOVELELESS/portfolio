@@ -61,7 +61,9 @@ const AtAGlance = () => {
           </Card>
           <Card>
             <CardContent className="AtAGlance-EP-Card-Content">
-              <Avatar alt="CCNA" src={ccna} className="AtAGlance-EP-Avatar" />
+              <div className="AtAGlance-EP-Avatar-Container">
+                <Avatar alt="CCNA" src={ccna} className="AtAGlance-EP-Avatar" />
+              </div>
               <Typography variant="h6" color="primary">
                   Cisco Certified Network Associate
               </Typography>

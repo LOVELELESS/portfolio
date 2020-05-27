@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.AtAGlance-EP-Avatar-Container {
+  display: flex;
+  justify-content: center;
+}
+
 .AtAGlance-EP-Avatar {
   width: 5em !important;
   height: 5em !important;

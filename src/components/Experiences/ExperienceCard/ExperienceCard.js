@@ -8,7 +8,7 @@ const ExperienceCard = (props) => {
     <Card className="ExperienceCard" variant="outlined">
       <CardContent className="ExperienceCard-Title-Container">
         <CardActionArea className="ExperienceCard-Title-Media-Container">
-          <CardMedia title="media" className="ExperienceCard-Title-Media" image={props.image} />
+          <CardMedia title="media" className="ExperienceCard-Title-Media" title={props.alt} image={props.image} />
         </CardActionArea>
         <div>
           <div style={{display: "flex", alignItems: "center"}}>

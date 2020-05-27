@@ -12,6 +12,7 @@ const Experiences = () => {
       <Typography variant="h4">Internships</Typography>
       <ExperienceCard
         image={govtech}
+        alt="GovTech"
         date={{
           from: "May 2020",
           to: "Aug 2020",
@@ -27,6 +28,7 @@ const Experiences = () => {
       />
       <ExperienceCard
         image={evantage}
+        alt="Evantage Technology"
         date={{
           from: "Feb 2019",
           to: "July 2019",
@@ -46,6 +48,7 @@ const Experiences = () => {
       <Typography variant="h4">Teaching Experience</Typography>
       <ExperienceCard
         image={soc}
+        alt="School of Computing"
         date={{
           from: "Jan 2020",
           to: "May 2020",
