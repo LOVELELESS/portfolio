@@ -14,60 +14,59 @@ const Header = () => {
         I love working on interesting and challenging software engineering
         projects.
       </Typography>
-      <div>
-        <Typography
-          variant="h6"
-          color="secondary"
-          display="inline"
-          gutterBottom
+      <Typography variant="h6" color="secondary" display="inline" gutterBottom>
+        Currently:{" "}
+      </Typography>
+      <Typography variant="h6" display="inline">
+        Year 1 Computer Science Undergraduate @{" "}
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.comp.nus.edu.sg/programmes/ug/cs/"
+          color="textSecondary"
         >
-          Currently:{" "}
+          National University of Singapore
+        </Link>
+      </Typography>
+      <br />
+      <br />
+      <div className="Header-Contacts">
+        <Typography variant="h6" display="inline" color="secondary">
+          My Contacts:{" "}
         </Typography>
-        <Typography variant="h6" display="inline">
-          Year 1 Computer Science Undergraduate @{" "}
-          <Link
+        <div className="Header-Icons">
+          <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.comp.nus.edu.sg/programmes/ug/cs/"
-            color="textSecondary"
+            href="https://github.com/LOVELELESS"
           >
-            National University of Singapore
-          </Link>
-        </Typography>
+            <img
+              className="Header-Icon"
+              src="https://img.icons8.com/material-sharp/36/000000/github.png"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://sg.linkedin.com/in/raysonkoh"
+          >
+            <img
+              className="Header-Icon"
+              src="https://img.icons8.com/color/36/000000/linkedin.png"
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:koh_rayson@yahoo.com.sg"
+          >
+            <img
+              className="Header-Icon"
+              src="https://img.icons8.com/nolan/36/email.png"
+            />
+          </a>
+        </div>
       </div>
-      <Typography variant="h6" display="inline" color="secondary">
-        My Contacts:{" "}
-      </Typography>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/LOVELELESS"
-      >
-        <img
-          className="Footer-Icon"
-          src="https://img.icons8.com/material-sharp/36/000000/github.png"
-        />
-      </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://sg.linkedin.com/in/raysonkoh"
-      >
-        <img
-          className="Footer-Icon"
-          src="https://img.icons8.com/color/36/000000/linkedin.png"
-        />
-      </a>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="mailto:koh_rayson@yahoo.com.sg"
-      >
-        <img
-          className="Footer-Icon"
-          src="https://img.icons8.com/nolan/36/email.png"
-        />
-      </a>
     </div>
   );
 };

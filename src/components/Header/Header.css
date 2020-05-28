@@ -12,3 +12,33 @@
   width: 9em !important;
   height: 9em !important;
 }
+
+.Header-Contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.Header-Icons {
+  display: inline-block;
+  margin: 0;
+}
+
+.Header-Icon {
+  margin: 0 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  h2 {
+    font-size: 2em !important;
+  }
+
+  .Header-Icon {
+    margin: 0 0.5em;
+  }
+}

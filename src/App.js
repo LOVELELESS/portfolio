@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
@@ -9,7 +9,7 @@ import Academics from "./components/Academics/Academics";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
-import {Divider} from "@material-ui/core";
+import { Divider } from "@material-ui/core";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
@@ -29,30 +29,32 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <br />
+      <Divider />
       <div className="App-Button-Group" id="App-Button-Group">
         <MenuButton
           renderIcon={() => <WorkIcon />}
           onClick={() => setBodyPage("experiences")}
           text="Experiences"
-          highlighted={bodyPage==="experiences"}
+          highlighted={bodyPage === "experiences"}
         />
         <MenuButton
           renderIcon={() => <SchoolIcon />}
           onClick={() => setBodyPage("academics")}
           text="Academics"
-          highlighted={bodyPage==="academics"}
+          highlighted={bodyPage === "academics"}
         />
         <MenuButton
           renderIcon={() => <DeveloperModeIcon />}
           onClick={() => setBodyPage("projects")}
           text="Projects"
-          highlighted={bodyPage==="projects"}
+          highlighted={bodyPage === "projects"}
         />
       </div>
-      <div className="App-Content">
-        {renderContent()}
-      </div>
-      <Footer className="App-Footer"/>
+      <div className="App-Content">{renderContent()}</div>
+      <br />
+      <Divider />
+      <Footer className="App-Footer" />
     </div>
   );
 }
