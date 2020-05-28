@@ -34,7 +34,7 @@
 
 @media only screen and (max-width: 767px) {
   /* phones */
-  h2 {
+  .Header h2 {
     font-size: 2em !important;
   }
 

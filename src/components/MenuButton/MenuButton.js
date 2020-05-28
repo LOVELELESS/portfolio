@@ -1,6 +1,6 @@
 import React from "react";
-import {IconButton, Typography} from "@material-ui/core";
-import {makeStyles} from "@material-ui/core/styles";
+import { IconButton, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 import "./MenuButton.css";
 
 const MenuButton = (props) => {
@@ -13,23 +13,30 @@ const MenuButton = (props) => {
     iconButton: {
       display: "flex",
       flexDirection: "column",
-      color: (props.highlighted ? "white" : "inherit"),
+      color: props.highlighted ? "white" : "inherit",
     },
   }));
 
   const classes = useStyles();
 
-  const backgroundClass = props.highlighted ? "MenuButton-Highlight" : "MenuButton-Inherit";
-
-  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+  const backgroundClass = props.highlighted
+    ? "MenuButton-Highlight"
+    : "MenuButton-Inherit";
 
   return (
     <div className="MenuButton">
-      <IconButton onClick={(e) => {
-        props.onClick(); window.location="#App-Button-Group";
-      }} className={backgroundClass} classes={{label: classes.iconButton}}>
+      <IconButton
+        onClick={(e) => {
+          props.onClick();
+          window.location = "#App-Button-Group";
+        }}
+        className={backgroundClass}
+        classes={{ label: classes.iconButton }}
+      >
         {props.renderIcon()}
-        <Typography variant="button" gutterBottom>{props.text}</Typography>
+        <Typography variant="subtitle1" gutterBottom>
+          {props.text}
+        </Typography>
       </IconButton>
     </div>
   );

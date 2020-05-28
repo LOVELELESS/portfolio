@@ -10,3 +10,21 @@
 .MenuButton-Inherit {
   background-color: inherit;
 }
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .MenuButton h6 {
+    font-size: 0.5em;
+  }
+
+  .MenuButton-Highlight {
+    font-size: 0.5em;
+  }
+
+  .MenuButton-Inherit {
+    font-size: 0.5em;
+  }
+}
