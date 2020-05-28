@@ -6,26 +6,42 @@
 .ExperienceCard-Title-Container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .ExperienceCard-Title-Media-Container {
-  min-width: 50px;
-  max-width: 200px;
-  width: 10%;
-  margin: 1em;
+  margin: 0 1em;
+}
+
+.ExperienceCard-Title-Text-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .ExperienceCard-Title-Media {
   width: 100px;
   height: 100px;
-  margin: 0 auto;
 }
 
 .ExperienceCard-Title-Media:hover {
-  transform: scale(0.90);
+  transform: scale(0.9);
   transition: all 0.5s;
 }
 
 .ExperienceCard-LetterOfRec {
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .ExperienceCard {
+    margin: 0.5em;
+  }
 }
