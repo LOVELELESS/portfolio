@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="Footer">
       <Typography variant="overline">
-      © 2020 - 2020 Rayson Koh
+      &copy; 2020 - {new Date().getFullYear()} Rayson Koh
       </Typography>
       <div>
         <a href="">
