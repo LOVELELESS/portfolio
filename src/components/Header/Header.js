@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, Avatar, Typography } from "@material-ui/core";
 import pic from "./profile_pic.jpg";
+import github from "../../icons/github.png";
+import linkedin from "../../icons/linkedin.png";
+import email from "../../icons/email.png";
 import "./Header.css";
 
 const Header = () => {
@@ -40,30 +43,21 @@ const Header = () => {
             rel="noopener noreferrer"
             href="https://github.com/LOVELELESS"
           >
-            <img
-              className="Header-Icon"
-              src="https://img.icons8.com/material-sharp/36/000000/github.png"
-            />
+            <img className="Header-Icon" src={github} />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://sg.linkedin.com/in/raysonkoh"
           >
-            <img
-              className="Header-Icon"
-              src="https://img.icons8.com/color/36/000000/linkedin.png"
-            />
+            <img className="Header-Icon" src={linkedin} />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:koh_rayson@yahoo.com.sg"
           >
-            <img
-              className="Header-Icon"
-              src="https://img.icons8.com/nolan/36/email.png"
-            />
+            <img className="Header-Icon" src={email} />
           </a>
         </div>
       </div>

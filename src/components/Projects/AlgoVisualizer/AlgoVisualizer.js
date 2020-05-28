@@ -9,6 +9,9 @@ import {
   Typography,
   CardActions,
 } from "@material-ui/core";
+import react from "../../../icons/react.png";
+import redux from "../../../icons/redux.png";
+import javascript from "../../../icons/javascript.png";
 import "./AlgoVisualizer.css";
 
 const AlgoVisualizer = () => {
@@ -82,23 +85,14 @@ const AlgoVisualizer = () => {
             </Button>
           </a>
           <div className="AlgoVisualizer-Icons">
-            <CustomTooltip enterTouchDelay={50} title="React">
-              <img
-                className="AlgoVisualizer-Icon"
-                src="https://img.icons8.com/officel/48/000000/react.png"
-              />
+            <CustomTooltip enterTouchDelay={30} title="React">
+              <img className="AlgoVisualizer-Icon" src={react} />
             </CustomTooltip>
-            <CustomTooltip enterTouchDelay={50} title="Redux">
-              <img
-                className="AlgoVisualizer-Icon"
-                src="https://img.icons8.com/color/48/000000/redux.png"
-              />
+            <CustomTooltip enterTouchDelay={30} title="Redux">
+              <img className="AlgoVisualizer-Icon" src={redux} />
             </CustomTooltip>
-            <CustomTooltip enterTouchDelay={50} title="Javascript">
-              <img
-                className="AlgoVisualizer-Icon"
-                src="https://img.icons8.com/color/48/000000/javascript.png"
-              />
+            <CustomTooltip enterTouchDelay={30} title="Javascript">
+              <img className="AlgoVisualizer-Icon" src={javascript} />
             </CustomTooltip>
           </div>
         </CardActions>

@@ -21,13 +21,11 @@
 }
 
 .Milkomeda-ActionArea {
-  justify-content: center;
-  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .Milkomeda-Icons {
-  position: absolute;
-  right: 0;
 }
 
 .Milkomeda-Icon-Wrapper {
@@ -38,4 +36,27 @@
 
 .Milkomeda-Icon {
   margin: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .Milkomeda-Media {
+    height: 15em;
+  }
+
+  .Milkomeda-ActionArea {
+    justify-content: center;
+  }
+
+  .Milkomeda-ActionArea a {
+    margin: 0.5em;
+  }
+
+  .Milkomeda-Icons {
+    margin: 0.5em;
+  }
 }
