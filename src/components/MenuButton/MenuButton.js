@@ -21,6 +21,8 @@ const MenuButton = (props) => {
 
   const backgroundClass = props.highlighted ? "MenuButton-Highlight" : "MenuButton-Inherit";
 
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
+
   return (
     <div className="MenuButton">
       <IconButton onClick={(e) => {
