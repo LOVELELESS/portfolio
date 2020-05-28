@@ -1,9 +1,11 @@
 import React from "react";
+import AlgoVisualizer from "./AlgoVisualizer/AlgoVisualizer";
+import "./Projects.css";
 
 const Projects = () => {
   return (
     <div>
-      THIS IS THE Projects!
+      <AlgoVisualizer />
     </div>
   );
 };

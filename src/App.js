@@ -11,7 +11,7 @@ import "./App.css";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
-  const [bodyPage, setBodyPage] = useState("academics");
+  const [bodyPage, setBodyPage] = useState("projects");
 
   const renderContent = () => {
     switch (bodyPage) {
@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="App">
       <Header />
       <div className="Button-Group">
         <MenuButton

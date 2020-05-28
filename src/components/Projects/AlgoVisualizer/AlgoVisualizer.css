@@ -1,0 +1,39 @@
+.AlgoVisualizer-Media {
+  background-image: url(./AlgoVisualizer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35em;
+}
+
+.AlgoVisualizer-Button {
+  margin: 0 1em !important;
+}
+
+.AlgoVisualizer-Text {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.AlgoVisualizer-Icons {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.AlgoVisualizer-Icons-Wrapper {
+  display: inline-block;
+  margin: 0 0.2em;
+  text-align: center;
+}
+
+.AlgoVisualizer-Icons-React {
+  color: rgb(53, 215, 243);
+}
+
+.AlgoVisualizer-Icons-Text {
+  visibility: hidden;
+}
+
+.AlgoVisualizer-Icons-Wrapper:hover .AlgoVisualizer-Icons-Text {
+  visibility: visible;
+}

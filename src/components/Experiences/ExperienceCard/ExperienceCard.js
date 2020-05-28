@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, CardContent, CardActions, CardMedia, CardActionArea, Typography} from "@material-ui/core";
+import {Card, CardContent, CardActions, CardMedia, Typography} from "@material-ui/core";
 import TimePeriod from "../TimePeriod/TimePeriod";
 import "./ExperienceCard.css";
 
@@ -7,9 +7,9 @@ const ExperienceCard = (props) => {
   return (
     <Card className="ExperienceCard" variant="outlined">
       <CardContent className="ExperienceCard-Title-Container">
-        <CardActionArea className="ExperienceCard-Title-Media-Container">
+        <CardActions className="ExperienceCard-Title-Media-Container">
           <CardMedia title="media" className="ExperienceCard-Title-Media" title={props.alt} image={props.image} />
-        </CardActionArea>
+        </CardActions>
         <div>
           <div style={{display: "flex", alignItems: "center"}}>
             <Typography variant="h6">{props.text.title}</Typography>
