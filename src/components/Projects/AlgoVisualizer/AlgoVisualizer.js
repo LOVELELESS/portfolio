@@ -7,7 +7,9 @@ const AlgoVisualizer = () => {
     <Card>
       <CardHeader title="CS2040S Algorithm Visualizer" titleTypographyProps={{color: "primary", variant: "h5"}}/>
       <CardContent>
-        <div className="AlgoVisualizer-Media" />
+        <div className="AlgoVisualizer-Media">
+          <div className="AlgoVisualizer-Media-Overlay" />
+        </div>
         <div className="AlgoVisualizer-Text">
           <Typography variant="body1" color="textPrimary">Visualizes the different algorithms taught in CS2040S, the Data Structures and Algorithms course in NUS.</Typography>
           <Typography variant="body1" color="textPrimary">Some examples of the types of algorithms implemented: </Typography>

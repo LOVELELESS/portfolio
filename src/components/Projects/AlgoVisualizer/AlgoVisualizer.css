@@ -1,9 +1,21 @@
 .AlgoVisualizer-Media {
-  background-image: url(./AlgoVisualizer.jpg);
-  background-position: center;
+  background-image: url(./AlgoVisualizer_better.jpg);
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35em;
+  height: 30em;
+}
+
+.AlgoVisualizer-Media-Overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(148, 183, 211, 0.815);
+  border-radius: 3%;
+  opacity: 0.5;
+}
+
+.AlgoVisualizer-Media-Overlay:hover {
+  opacity: 0;
 }
 
 .AlgoVisualizer-Button {
