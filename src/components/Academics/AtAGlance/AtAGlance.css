@@ -29,8 +29,27 @@
 .AtAGlance-EP-CardActions {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.AtAGlance-EP-CardActions-Anchor {
+  text-decoration: none;
+  display: block;
+  margin: 0.5em;
 }
 
 .AtAGlance-EP-UL {
   text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .AtAGlance-EP-CardActions {
+    justify-content: center;
+    align-items: stretch;
+  }
 }

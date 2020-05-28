@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
@@ -23,39 +23,60 @@ const AtAGlance = () => {
    */
   return (
     <div>
-      <ExpansionPanel expanded={expanded} onChange={(e) => setExpanded(!expanded)}>
+      <ExpansionPanel
+        expanded={expanded}
+        onChange={(e) => setExpanded(!expanded)}
+      >
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <div className="AtAGlance-EP-Summary1">
-            <Typography variant="h5" color="secondary">At a glance</Typography>
+            <Typography variant="h5" color="secondary">
+              At a glance
+            </Typography>
           </div>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="AtAGlance-EP-Details">
           <Card className="AtAGlance-EP-Card">
             <CardContent>
               <Typography variant="h6" color="primary">
-                  Total GPA
+                Total GPA
               </Typography>
-              <Typography variant="h6" color="secondary" component="h2" gutterBottom>
-                  4.7 / 5.0
+              <Typography
+                variant="h6"
+                color="secondary"
+                component="h2"
+                gutterBottom
+              >
+                4.7 / 5.0
               </Typography>
-              <Typography color="textPrimary">
-                  Specializations
-              </Typography>
+              <Typography color="textPrimary">Specializations</Typography>
               <ul className="AtAGlance-EP-UL">
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  Database Systems
-                </Typography></li>
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  Algorithms and Theory
-                </Typography></li>
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  Networking and Distributed Systems
-                </Typography></li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    Database Systems
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    Algorithms and Theory
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    Networking and Distributed Systems
+                  </Typography>
+                </li>
               </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
-              <Button variant="outlined" color="secondary" size="small" disabled>
-                <Typography variant="overline">Full Transcript (Please request for it)</Typography>
+              <Button
+                variant="outlined"
+                color="secondary"
+                size="small"
+                disabled
+              >
+                <Typography variant="overline">
+                  Full Transcript (Please request for it)
+                </Typography>
               </Button>
             </CardActions>
           </Card>
@@ -65,28 +86,42 @@ const AtAGlance = () => {
                 <Avatar alt="CCNA" src={ccna} className="AtAGlance-EP-Avatar" />
               </div>
               <Typography variant="h6" color="primary">
-                  Cisco Certified Network Associate
+                Cisco Certified Network Associate
               </Typography>
               <ul className="AtAGlance-EP-UL">
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  Network fundamentals
-                </Typography></li>
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  LAN switching technologies
-                </Typography></li>
-                <li><Typography variant="subtitle2" color="textSecondary">
-                  IPv4 and IPv6 routing technologies
-                </Typography></li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    Network fundamentals
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    LAN switching technologies
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle2" color="textSecondary">
+                    IPv4 and IPv6 routing technologies
+                  </Typography>
+                </li>
               </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
-              <a style={{textDecoration: "none"}} href={ccnaPdf} download="Rayson_CCNA.pdf">
+              <a
+                className="AtAGlance-EP-CardActions-Anchor"
+                href={ccnaPdf}
+                download="Rayson_CCNA.pdf"
+              >
                 <Button variant="outlined" color="secondary" size="small">
                   <Typography variant="overline">E-Certificate</Typography>
                 </Button>
               </a>
-              <a style={{textDecoration: "none"}} target="_blank" rel="noopener noreferrer"
-                href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html">
+              <a
+                className="AtAGlance-EP-CardActions-Anchor"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
+              >
                 <Button variant="outlined" size="small">
                   <Typography variant="overline">Learn More</Typography>
                 </Button>

@@ -1,4 +1,5 @@
-.Academics {}
+.Academics {
+}
 
 .Academics-Modules-EP-Summary1 {
   width: 100%;
@@ -8,6 +9,6 @@
 .Academics-Modules-EP-Details {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  width: 100%;
 }
