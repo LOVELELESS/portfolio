@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Card, CardContent, CardHeader, Typography} from "@material-ui/core";
+import {Button, Card, CardContent, CardHeader, Typography, CardActions} from "@material-ui/core";
 import "./AlgoVisualizer.css";
 
 const AlgoVisualizer = () => {
@@ -22,22 +22,24 @@ const AlgoVisualizer = () => {
             </ul>
           </Typography>
         </div>
-        <Button variant="outlined" className="AlgoVisualizer-Button" color="secondary">Github Repo</Button>
-        <Button variant="outlined" className="AlgoVisualizer-Button" color="secondary">Application</Button>
-        <div className="AlgoVisualizer-Icons">
-          <div className="AlgoVisualizer-Icons-Wrapper">
-            <img src="https://img.icons8.com/officel/48/000000/react.png"/>
-            <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">React</Typography>
-          </div>
-          <div className="AlgoVisualizer-Icons-Wrapper">
-            <img src="https://img.icons8.com/color/48/000000/redux.png"/>
-            <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">Redux</Typography>
-          </div>
-          <div className="AlgoVisualizer-Icons-Wrapper">
-            <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
-            <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">Javascipt</Typography>
-          </div>
-        </div>
+        <CardActions className="AlgoVisualizer-ActionArea">
+          <Button variant="outlined" className="AlgoVisualizer-Button" color="secondary">Github Repo</Button>
+          <Button variant="outlined" className="AlgoVisualizer-Button" color="secondary">Application</Button>
+          <span className="AlgoVisualizer-Icons">
+            <div className="AlgoVisualizer-Icon-Wrapper">
+              <img src="https://img.icons8.com/officel/48/000000/react.png"/>
+              <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">React</Typography>
+            </div>
+            <div className="AlgoVisualizer-Icon-Wrapper">
+              <img src="https://img.icons8.com/color/48/000000/redux.png"/>
+              <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">Redux</Typography>
+            </div>
+            <div className="AlgoVisualizer-Icon-Wrapper">
+              <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+              <Typography className="AlgoVisualizer-Icons-Text" variant="subtitle2" color="textSecondary">Javascipt</Typography>
+            </div>
+          </span>
+        </CardActions>
       </CardContent>
     </Card>
   );
