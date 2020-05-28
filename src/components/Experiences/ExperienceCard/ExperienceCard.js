@@ -12,10 +12,10 @@ const ExperienceCard = (props) => {
         </CardActions>
         <div>
           <div style={{display: "flex", alignItems: "center"}}>
-            <Typography variant="h6">{props.text.title}</Typography>
+            <Typography variant="h6" color="textPrimary">{props.text.title}</Typography>
             <TimePeriod date={props.date} />
           </div>
-          <Typography variant="subtitle1">{props.text.title2}</Typography>
+          <Typography variant="subtitle1" color="textPrimary">{props.text.title2}</Typography>
         </div>
       </CardContent>
       <CardContent>
@@ -25,7 +25,7 @@ const ExperienceCard = (props) => {
         {props.text.list &&
             <ul>
               {props.text.list.map((listItems) => <li>
-                <Typography variant="body2">{listItems}</Typography>
+                <Typography variant="body2" color="textSecondary">{listItems}</Typography>
               </li>)}
             </ul>
         }

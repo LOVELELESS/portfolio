@@ -19,6 +19,7 @@ const Academics = () => {
   return (
     <div className="Academics">
       <AtAGlance />
+      <br />
       <ExpansionPanel expanded={modulesExpanded} onChange={(e) => setModulesExpanded(!modulesExpanded)}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <div className="Academics-Modules-EP-Summary1">

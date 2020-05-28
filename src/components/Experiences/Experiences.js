@@ -1,5 +1,5 @@
 import React from "react";
-import {Typography} from "@material-ui/core";
+import {Typography, Divider} from "@material-ui/core";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import govtech from "./govtech.png";
 import evantage from "./evantage.png";
@@ -9,7 +9,8 @@ import "./Experiences.css";
 const Experiences = () => {
   return (
     <div className="Experiences">
-      <Typography variant="h4">Internships</Typography>
+      <Typography variant="h4" style={{color: "white", textAlign: "center"}}>Internships</Typography>
+      <Divider />
       <ExperienceCard
         image={govtech}
         alt="GovTech"
@@ -45,7 +46,8 @@ const Experiences = () => {
           ],
         }}
       />
-      <Typography variant="h4">Teaching Experience</Typography>
+      <Typography variant="h4" style={{color: "white", textAlign: "center"}}>Teaching Experience</Typography>
+      <Divider />
       <ExperienceCard
         image={soc}
         alt="School of Computing"

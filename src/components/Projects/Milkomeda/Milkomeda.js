@@ -18,11 +18,10 @@ const Milkomeda = () => {
         <Link target="_blank" rel="noopener noreferrer" href="https://ncl.sg/" >National Cybersecurity R&D Lab</Link>
       </Typography>
       <CardContent>
-        <div className="Milkomeda-Media">
-          <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708" target="_blank" rel="noopener noreferrer">
-            <div className="Milkomeda-Media-Overlay" />
-          </a>
-        </div>
+        <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708" target="_blank" rel="noopener noreferrer">
+          <div className="Milkomeda-Media">
+          </div>
+        </a>
         <div className="Milkomeda-Text">
           <Typography variant="body1" color="textPrimary">
            Worked on developing and documenting the exploit for CVE-2019-0708 (aka{" "}

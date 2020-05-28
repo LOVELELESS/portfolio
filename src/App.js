@@ -12,7 +12,7 @@ import "./App.css";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
-  const [bodyPage, setBodyPage] = useState("projects");
+  const [bodyPage, setBodyPage] = useState("experiences");
 
   const renderContent = () => {
     switch (bodyPage) {
@@ -48,7 +48,9 @@ function App() {
           highlighted={bodyPage==="projects"}
         />
       </div>
-      {renderContent()}
+      <div className="App-Content">
+        {renderContent()}
+      </div>
       <Footer className="App-Footer"/>
     </div>
   );
