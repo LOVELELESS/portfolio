@@ -9,6 +9,7 @@ import Academics from "./components/Academics/Academics";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import {Divider} from "@material-ui/core";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
@@ -28,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="Button-Group">
+      <div className="App-Button-Group" id="App-Button-Group">
         <MenuButton
           renderIcon={() => <WorkIcon />}
           onClick={() => setBodyPage("experiences")}

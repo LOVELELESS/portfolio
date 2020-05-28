@@ -7,9 +7,9 @@ const ExperienceCard = (props) => {
   return (
     <Card className="ExperienceCard" variant="outlined">
       <CardContent className="ExperienceCard-Title-Container">
-        <CardActions className="ExperienceCard-Title-Media-Container">
+        <a className="ExperienceCard-Title-Media-Container" href={props.link} target="_blank" rel="noopener noreferrer">
           <CardMedia title="media" className="ExperienceCard-Title-Media" title={props.alt} image={props.image} />
-        </CardActions>
+        </a>
         <div>
           <div style={{display: "flex", alignItems: "center"}}>
             <Typography variant="h6" color="textPrimary">{props.text.title}</Typography>

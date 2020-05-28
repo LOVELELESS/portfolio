@@ -10,10 +10,10 @@ const Experiences = () => {
   return (
     <div className="Experiences">
       <Typography variant="h4" style={{color: "white", textAlign: "center"}}>Internships</Typography>
-      <Divider />
       <ExperienceCard
         image={govtech}
         alt="GovTech"
+        link="https://www.tech.gov.sg"
         date={{
           from: "May 2020",
           to: "Aug 2020",
@@ -30,6 +30,7 @@ const Experiences = () => {
       <ExperienceCard
         image={evantage}
         alt="Evantage Technology"
+        link="https://www.evantage-technology.com"
         date={{
           from: "Feb 2019",
           to: "July 2019",
@@ -47,10 +48,10 @@ const Experiences = () => {
         }}
       />
       <Typography variant="h4" style={{color: "white", textAlign: "center"}}>Teaching Experience</Typography>
-      <Divider />
       <ExperienceCard
         image={soc}
         alt="School of Computing"
+        link="https://www.comp.nus.edu.sg/programmes/ug/cs/"
         date={{
           from: "Jan 2020",
           to: "May 2020",

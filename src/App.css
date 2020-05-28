@@ -1,14 +1,13 @@
-.App {
-  margin: 0 12%;
-}
+.App {}
 
 .App-Content {
-  background-color: #3b4483;
+  background-color: #2a324b;
+  color: #eff1f3;
   padding: 1em;
   border-radius: 20px;
 }
 
-.Button-Group {
+.App-Button-Group {
   display: flex;
   justify-content: center;
 }

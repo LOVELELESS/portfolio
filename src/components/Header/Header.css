@@ -1,13 +1,14 @@
-.MB {
+.Header {
   /*border: 3px solid grey;*/
+  text-align: left;
 }
 
-.MB-Avatar-Container {
+.Header-Avatar-Container {
   display: flex;
   justify-content: space-around;
 }
 
-.MB-Avatar {
+.Header-Avatar {
   width: 9em !important;
   height: 9em !important;
 }

@@ -12,10 +12,16 @@
   min-width: 50px;
   max-width: 200px;
   width: 10%;
+  margin: 1em;
 }
 
 .ExperienceCard-Title-Media {
   width: 100px;
   height: 100px;
   margin: 0 auto;
+}
+
+.ExperienceCard-Title-Media:hover {
+  transform: scale(0.90);
+  transition: all 0.5s;
 }

@@ -3,7 +3,6 @@ import {IconButton, Typography} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import "./MenuButton.css";
 
-// eslint-disable-next-line require-jsdoc
 const MenuButton = (props) => {
   /**
    * The reason I'm doing this weird makeStyles thing is to be able to display
@@ -24,7 +23,9 @@ const MenuButton = (props) => {
 
   return (
     <div className="MenuButton">
-      <IconButton onClick={props.onClick} className={backgroundClass} classes={{label: classes.iconButton}}>
+      <IconButton onClick={(e) => {
+        props.onClick(); window.location="#App-Button-Group";
+      }} className={backgroundClass} classes={{label: classes.iconButton}}>
         {props.renderIcon()}
         <Typography variant="button" gutterBottom>{props.text}</Typography>
       </IconButton>
