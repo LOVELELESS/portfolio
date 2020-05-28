@@ -7,6 +7,7 @@ import MenuButton from "./components/MenuButton/MenuButton";
 import Experiences from "./components/Experiences/Experiences";
 import Academics from "./components/Academics/Academics";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 // eslint-disable-next-line require-jsdoc
@@ -48,6 +49,7 @@ function App() {
         />
       </div>
       {renderContent()}
+      <Footer />
     </div>
   );
 }
