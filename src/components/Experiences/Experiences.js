@@ -4,6 +4,7 @@ import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import govtech from "./govtech.png";
 import evantage from "./evantage.png";
 import soc from "./soc.jpg";
+import evantageTestimonial from "./Evantage-Testimonial.pdf";
 import "./Experiences.css";
 
 const Experiences = () => {
@@ -44,8 +45,9 @@ const Experiences = () => {
             "Migrated on-premise fileserver and knowledge-base to the cloud.",
             "Workstation imaging with sysprep for quick deployment.",
             "Developed a prototype digital receptionist based on the alexa echo device using Alexa Skills, AWS Lambda and EC2.",
-          ],
-        }}
+          ]}}
+        letterOfRec={evantageTestimonial}
+        letterOfRecName="Rayson-Intern-Testimonial-2019.pdf"
       />
       <Typography variant="h4" style={{color: "white", textAlign: "center"}}>Teaching Experience</Typography>
       <ExperienceCard

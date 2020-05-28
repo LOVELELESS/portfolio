@@ -1,9 +1,10 @@
 import React from "react";
-import {Card, CardContent, CardActions, CardMedia, Typography} from "@material-ui/core";
+import {Card, Button, CardContent, CardActions, CardMedia, Typography} from "@material-ui/core";
 import TimePeriod from "../TimePeriod/TimePeriod";
 import "./ExperienceCard.css";
 
 const ExperienceCard = (props) => {
+  console.log(props, props.text.title);
   return (
     <Card className="ExperienceCard" variant="outlined">
       <CardContent className="ExperienceCard-Title-Container">
@@ -29,6 +30,12 @@ const ExperienceCard = (props) => {
               </li>)}
             </ul>
         }
+        <div className="ExperienceCard-LetterOfRec">
+          {props.letterOfRec ? (
+            <a style={{textDecoration: "none"}} href={props.letterOfRec} download={props.letterOfRecName}>
+              <Button variant="outlined" color="secondary">Letter of Recommendation</Button>
+            </a>) : <div />}
+        </div>
       </CardContent>
     </Card>
   );
