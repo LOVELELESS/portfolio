@@ -22,7 +22,7 @@ const AlgoVisualizer = () => {
   }))(Tooltip);
 
   return (
-    <Card>
+    <Card className="AlgoVisualizer">
       <CardHeader
         title="CS2040S Algorithm Visualizer"
         titleTypographyProps={{ color: "primary", variant: "h5" }}

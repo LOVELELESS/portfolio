@@ -7,7 +7,6 @@ const Projects = () => {
   return (
     <div>
       <AlgoVisualizer />
-      <br />
       <Milkomeda />
     </div>
   );

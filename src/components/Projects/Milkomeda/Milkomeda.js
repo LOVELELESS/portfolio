@@ -24,7 +24,7 @@ const Milkomeda = () => {
   }))(Tooltip);
 
   return (
-    <Card>
+    <Card className="Milkomeda">
       <CardHeader
         title="Project Milkomeda"
         titleTypographyProps={{ color: "primary", variant: "h5" }}

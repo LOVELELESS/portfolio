@@ -14,8 +14,7 @@ const Header = () => {
       </div>
       <Typography variant="h2">Hello world! I am Rayson.</Typography>
       <Typography variant="h2" gutterBottom>
-        I love working on interesting and challenging software engineering
-        projects.
+        I like to work on interesting and challenging software projects.
       </Typography>
       <Typography variant="h6" color="secondary" display="inline" gutterBottom>
         Currently:{" "}
