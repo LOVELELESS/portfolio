@@ -1,12 +1,12 @@
-.AlgoVisualizer-Media {
-  background-image: url(./AlgoVisualizer_better.jpg);
+.Milkomeda-Media {
+  background-image: url(./bluekeep.jpeg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 30em;
 }
 
-.AlgoVisualizer-Media-Overlay {
+.Milkomeda-Media-Overlay {
   height: 100%;
   width: 100%;
   background-color: rgba(148, 183, 211, 0.815);
@@ -14,29 +14,35 @@
   opacity: 0.5;
 }
 
-.AlgoVisualizer-Media-Overlay:hover {
+.Milkomeda-Media-Overlay:hover {
   opacity: 0;
 }
 
-.AlgoVisualizer-Button {
+.Milkomeda-Button {
   margin: 0 1em !important;
 }
 
-.AlgoVisualizer-Text {
+.Milkomeda-Text {
   text-align: left;
   margin-top: 1em;
 }
 
-.AlgoVisualizer-ActionArea {
+.Milkomeda-ActionArea {
   justify-content: center;
   position: relative;
 }
 
-.AlgoVisualizer-Icons {
+.Milkomeda-Icons {
   position: absolute;
   right: 0;
 }
 
-.AlgoVisualizer-Icon {
+.Milkomeda-Icon-Wrapper {
+  display: inline-block;
+  margin: 0 0.2em;
+  text-align: center;
+}
+
+.Milkomeda-Icon {
   margin: 0.2em;
 }

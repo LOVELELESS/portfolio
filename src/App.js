@@ -49,7 +49,7 @@ function App() {
         />
       </div>
       {renderContent()}
-      <Footer />
+      <Footer className="App-Footer"/>
     </div>
   );
 }

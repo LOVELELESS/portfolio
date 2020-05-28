@@ -5,5 +5,9 @@
 .Button-Group {
   display: flex;
   justify-content: center;
-  /*border: 3px solid black;*/
+}
+
+.App-Footer {
+  position: fixed;
+  bottom: 0;
 }
