@@ -40,13 +40,15 @@ const AtAGlance = () => {
               <Typography variant="h6" color="primary">
                 Total GPA
               </Typography>
+              <Typography variant="h6" color="secondary" component="h2">
+                4.7 / 5.0
+              </Typography>
               <Typography
-                variant="h6"
-                color="secondary"
-                component="h2"
+                variant="subtitle1"
+                color="textSecondary"
                 gutterBottom
               >
-                4.7 / 5.0
+                First Class Honours
               </Typography>
               <Typography color="textPrimary">Specializations</Typography>
               <ul className="AtAGlance-EP-UL">

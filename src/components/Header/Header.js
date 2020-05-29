@@ -12,7 +12,7 @@ const Header = () => {
       <div className="Header-Avatar-Container">
         <Avatar alt="Rayson Koh" className="Header-Avatar" src={pic} />
       </div>
-      <Typography variant="h2">Hello world! I am Rayson.</Typography>
+      <Typography variant="h2">Hello! I am Rayson.</Typography>
       <Typography variant="h2" gutterBottom>
         I like to work on interesting and challenging software projects.
       </Typography>
