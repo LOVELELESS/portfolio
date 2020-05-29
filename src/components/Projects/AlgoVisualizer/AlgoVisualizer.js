@@ -33,7 +33,7 @@ const AlgoVisualizer = () => {
       </Typography>
       <CardContent>
         <a
-          href="http://cs2040s-algo-visualizer.raysonkoh.com"
+          href="https://cs2040s-algo-visualizer.raysonkoh.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -72,7 +72,7 @@ const AlgoVisualizer = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            href="http://cs2040s-algo-visualizer.raysonkoh.com"
+            href="https://cs2040s-algo-visualizer.raysonkoh.com"
             target="_blank"
             rel="noopener noreferrer"
           >
