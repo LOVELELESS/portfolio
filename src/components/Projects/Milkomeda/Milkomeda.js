@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { withStyles } from "@material-ui/core/styles";
 import {
@@ -18,7 +18,9 @@ import rdp from "../../../icons/remote-desktop.png";
 import "./Milkomeda.css";
 
 const Milkomeda = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   const CustomTooltip = withStyles((theme) => ({
     tooltip: {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
@@ -15,7 +15,9 @@ import ccnaPdf from "./ccna_cert.pdf";
 import "./AtAGlance.css";
 
 const AtAGlance = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   const [expanded, setExpanded] = useState(true);
 

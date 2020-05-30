@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Typography } from "@material-ui/core";
 import github from "../../icons/github.png";
@@ -7,7 +7,9 @@ import email from "../../icons/email.png";
 import "./Footer.css";
 
 const Footer = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   return (
     <div className="Footer">

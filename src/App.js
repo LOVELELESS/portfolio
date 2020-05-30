@@ -14,7 +14,10 @@ import { Divider } from "@material-ui/core";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+    ReactGA.pageview("/");
+  }, []);
 
   const [bodyPage, setBodyPage] = useState("experiences");
 

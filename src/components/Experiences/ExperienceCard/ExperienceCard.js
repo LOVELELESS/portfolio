@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import {
   Card,
@@ -12,7 +12,9 @@ import TimePeriod from "../TimePeriod/TimePeriod";
 import "./ExperienceCard.css";
 
 const ExperienceCard = (props) => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   return (
     <Card className="ExperienceCard" variant="outlined">

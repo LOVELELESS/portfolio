@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Link, Avatar, Typography } from "@material-ui/core";
 import pic from "./profile_pic.jpg";
@@ -8,7 +8,9 @@ import email from "../../icons/email.png";
 import "./Header.css";
 
 const Header = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   return (
     <div className="Header">

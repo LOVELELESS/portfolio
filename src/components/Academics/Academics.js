@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
@@ -10,7 +10,9 @@ import AtAGlance from "./AtAGlance/AtAGlance";
 import "./Academics.css";
 
 const Academics = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   const [modulesExpanded, setModulesExpanded] = useState(false);
   const [expandedAnalytics, setExpandedAnalytics] = useState(false);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { withStyles } from "@material-ui/core/styles";
 import {
@@ -16,7 +16,9 @@ import javascript from "../../../icons/javascript.png";
 import "./AlgoVisualizer.css";
 
 const AlgoVisualizer = () => {
-  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  }, []);
 
   const CustomTooltip = withStyles((theme) => ({
     tooltip: {
