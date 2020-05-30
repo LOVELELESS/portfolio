@@ -120,7 +120,7 @@ const AtAGlance = () => {
                 download="Rayson_CCNA.pdf"
                 onClick={(e) =>
                   ReactGA.event({
-                    category: "E-certificate",
+                    category: "Retrieve supporting document",
                     action: `Clicked on CCNA E-certificate download link`,
                   })
                 }

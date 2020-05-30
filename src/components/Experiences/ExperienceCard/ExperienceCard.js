@@ -77,8 +77,8 @@ const ExperienceCard = (props) => {
               download={props.letterOfRecName}
               onClick={(e) =>
                 ReactGA.event({
-                  category: `Recommandation letter:`,
-                  action: `Clicked on ${props.text.title}'s recommndation letter download link`,
+                  category: `Retrieve supporting document`,
+                  action: `Clicked on ${props.text.title} recommndation letter download link`,
                 })
               }
             >
