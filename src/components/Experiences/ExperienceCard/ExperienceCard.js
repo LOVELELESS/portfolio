@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import {
   Card,
   Button,
@@ -11,7 +12,8 @@ import TimePeriod from "../TimePeriod/TimePeriod";
 import "./ExperienceCard.css";
 
 const ExperienceCard = (props) => {
-  console.log(props, props.text.title);
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   return (
     <Card className="ExperienceCard" variant="outlined">
       <CardContent className="ExperienceCard-Title-Container">
@@ -20,6 +22,12 @@ const ExperienceCard = (props) => {
           href={props.link}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={(e) =>
+            ReactGA.event({
+              category: `Employer information: ${props.text.title}`,
+              action: `Clicked on ${props.text.title}'s image`,
+            })
+          }
         >
           <CardMedia
             title="media"
@@ -65,6 +73,12 @@ const ExperienceCard = (props) => {
               style={{ textDecoration: "none" }}
               href={props.letterOfRec}
               download={props.letterOfRecName}
+              onClick={(e) =>
+                ReactGA.event({
+                  category: `Recommandation letter: ${props.text.title}`,
+                  action: `Clicked on ${props.text.title}'s recommndation letter download button`,
+                })
+              }
             >
               <Button variant="outlined" color="secondary">
                 Letter of Recommendation

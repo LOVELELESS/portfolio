@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
 import DeveloperModeIcon from "@material-ui/icons/DeveloperMode";
@@ -13,6 +14,8 @@ import { Divider } from "@material-ui/core";
 
 // eslint-disable-next-line require-jsdoc
 function App() {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   const [bodyPage, setBodyPage] = useState("experiences");
 
   const renderContent = () => {
@@ -26,6 +29,11 @@ function App() {
     }
   };
 
+  const handleOnClick = (name) => {
+    setBodyPage(name);
+    ReactGA.pageview(`/${name}`);
+  };
+
   return (
     <div className="App">
       <Header />
@@ -34,19 +42,19 @@ function App() {
       <div className="App-Button-Group" id="App-Button-Group">
         <MenuButton
           renderIcon={() => <WorkIcon />}
-          onClick={() => setBodyPage("experiences")}
+          onClick={() => handleOnClick("experiences")}
           text="Experiences"
           highlighted={bodyPage === "experiences"}
         />
         <MenuButton
           renderIcon={() => <SchoolIcon />}
-          onClick={() => setBodyPage("academics")}
+          onClick={() => handleOnClick("academics")}
           text="Academics"
           highlighted={bodyPage === "academics"}
         />
         <MenuButton
           renderIcon={() => <DeveloperModeIcon />}
-          onClick={() => setBodyPage("projects")}
+          onClick={() => handleOnClick("projects")}
           text="Projects"
           highlighted={bodyPage === "projects"}
         />
