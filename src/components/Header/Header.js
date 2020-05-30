@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import { Link, Avatar, Typography } from "@material-ui/core";
 import pic from "./profile_pic.jpg";
 import github from "../../icons/github.png";
@@ -7,6 +8,8 @@ import email from "../../icons/email.png";
 import "./Header.css";
 
 const Header = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   return (
     <div className="Header">
       <div className="Header-Avatar-Container">
@@ -26,6 +29,12 @@ const Header = () => {
           rel="noopener noreferrer"
           href="https://www.comp.nus.edu.sg/programmes/ug/cs/"
           color="textSecondary"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Learn More",
+              action: "Clicked on NUS SOC link",
+            })
+          }
         >
           National University of Singapore
         </Link>
@@ -41,6 +50,12 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/LOVELELESS"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit contact info",
+                action: "Clicked on github link",
+              })
+            }
           >
             <img className="Header-Icon" src={github} />
           </a>
@@ -48,6 +63,12 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="https://sg.linkedin.com/in/raysonkoh"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit contact info",
+                action: "Clicked on linkedin link",
+              })
+            }
           >
             <img className="Header-Icon" src={linkedin} />
           </a>
@@ -55,6 +76,12 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:koh_rayson@yahoo.com.sg"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit contact info",
+                action: "Clicked on mail link",
+              })
+            }
           >
             <img className="Header-Icon" src={email} />
           </a>
