@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import { withStyles } from "@material-ui/core/styles";
 import {
   Tooltip,
@@ -17,6 +18,8 @@ import rdp from "../../../icons/remote-desktop.png";
 import "./Milkomeda.css";
 
 const Milkomeda = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   const CustomTooltip = withStyles((theme) => ({
     tooltip: {
       fontSize: "1em",
@@ -31,7 +34,17 @@ const Milkomeda = () => {
       />
       <Typography color="textSecondary" variant="subtitle1">
         A commercial research project commissioned by the{" "}
-        <Link target="_blank" rel="noopener noreferrer" href="https://ncl.sg/">
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://ncl.sg/"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Learn more",
+              action: "Clicked on National cybersecurity R&D lab link",
+            })
+          }
+        >
           National Cybersecurity R&D Lab
         </Link>
       </Typography>
@@ -40,6 +53,12 @@ const Milkomeda = () => {
           href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Learn more",
+              action: "Clicked on cve 2019 0708 link",
+            })
+          }
         >
           <div className="Milkomeda-Media"></div>
         </a>
@@ -51,6 +70,12 @@ const Milkomeda = () => {
               href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) =>
+                ReactGA.event({
+                  category: "Learn more",
+                  action: "Clicked on cve 2019 0708 link",
+                })
+              }
             >
               BlueKeep
             </Link>
@@ -66,6 +91,12 @@ const Milkomeda = () => {
             style={{ textDecoration: "none" }}
             href={pdf}
             download="Rayson_CVE-2019-0708-REDACTED.pdf"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit app",
+                action: "Clicked on cve 2019 0708 report link",
+              })
+            }
           >
             <Button
               variant="outlined"

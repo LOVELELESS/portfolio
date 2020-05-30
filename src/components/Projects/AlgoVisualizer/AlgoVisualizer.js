@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 import { withStyles } from "@material-ui/core/styles";
 import {
   Tooltip,
@@ -15,6 +16,8 @@ import javascript from "../../../icons/javascript.png";
 import "./AlgoVisualizer.css";
 
 const AlgoVisualizer = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   const CustomTooltip = withStyles((theme) => ({
     tooltip: {
       fontSize: "1em",
@@ -36,6 +39,12 @@ const AlgoVisualizer = () => {
           href="https://cs2040s-algo-visualizer.raysonkoh.com"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Visit app",
+              action: `Clicked on CS2040S-Algo-Visualizer application link`,
+            })
+          }
         >
           <div className="AlgoVisualizer-Media"></div>
         </a>
@@ -61,6 +70,12 @@ const AlgoVisualizer = () => {
             href="https://github.com/LOVELELESS/cs2040s-algo-visualizer"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit app repo",
+                action: `Clicked on CS2040S-Algo-Visualizer github link`,
+              })
+            }
           >
             <Button
               variant="outlined"
@@ -75,6 +90,12 @@ const AlgoVisualizer = () => {
             href="https://cs2040s-algo-visualizer.raysonkoh.com"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) =>
+              ReactGA.event({
+                category: "Visit app",
+                action: `Clicked on CS2040S-Algo-Visualizer application link`,
+              })
+            }
           >
             <Button
               variant="outlined"
