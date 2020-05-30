@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGa from "react-ga";
 import { Typography } from "@material-ui/core";
 import github from "../../icons/github.png";
 import linkedin from "../../icons/linkedin.png";
@@ -6,6 +7,8 @@ import email from "../../icons/email.png";
 import "./Footer.css";
 
 const Footer = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   return (
     <div className="Footer">
       <Typography variant="overline">
@@ -16,6 +19,12 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/LOVELELESS"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Visit contact info",
+              action: "Clicked on github link",
+            })
+          }
         >
           <img className="Footer-Icon" src={github} />
         </a>
@@ -23,6 +32,12 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://sg.linkedin.com/in/raysonkoh"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Visit contact info",
+              action: "Clicked on linkedin link",
+            })
+          }
         >
           <img className="Footer-Icon" src={linkedin} />
         </a>
@@ -30,6 +45,12 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
           href="mailto:koh_rayson@yahoo.com.sg"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Visit contact info",
+              action: "Clicked on mail link",
+            })
+          }
         >
           <img className="Footer-Icon" src={email} />
         </a>

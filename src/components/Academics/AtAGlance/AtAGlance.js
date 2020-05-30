@@ -119,7 +119,7 @@ const AtAGlance = () => {
                 onClick={(e) =>
                   ReactGA.event({
                     category: "E-certificate",
-                    action: `Clicked on CCNA E-certificate download button`,
+                    action: `Clicked on CCNA E-certificate download link`,
                   })
                 }
               >
@@ -135,7 +135,7 @@ const AtAGlance = () => {
                 onClick={(e) =>
                   ReactGA.event({
                     category: "Learn more",
-                    action: `Clicked on CCNA learn more button`,
+                    action: `Clicked on CCNA learn more link`,
                   })
                 }
               >

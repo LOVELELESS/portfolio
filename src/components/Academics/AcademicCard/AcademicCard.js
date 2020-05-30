@@ -34,7 +34,7 @@ const AcademicCard = (props) => {
           onClick={(e) => {
             ReactGA.event({
               category: "Learn more",
-              action: `Click on ${props.text.moduleCode}'s Learn more button`,
+              action: `Clicked on ${props.text.moduleCode} Learn more link`,
             });
           }}
         >
