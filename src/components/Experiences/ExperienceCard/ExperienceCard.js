@@ -24,7 +24,7 @@ const ExperienceCard = (props) => {
           rel="noopener noreferrer"
           onClick={(e) =>
             ReactGA.event({
-              category: `Employer information: ${props.text.title}`,
+              category: `Employer's information`,
               action: `Clicked on ${props.text.title}'s image`,
             })
           }
@@ -75,7 +75,7 @@ const ExperienceCard = (props) => {
               download={props.letterOfRecName}
               onClick={(e) =>
                 ReactGA.event({
-                  category: `Recommandation letter: ${props.text.title}`,
+                  category: `Recommandation letter:`,
                   action: `Clicked on ${props.text.title}'s recommndation letter download button`,
                 })
               }

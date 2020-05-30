@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactGA from "react-ga";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
@@ -14,6 +15,8 @@ import ccnaPdf from "./ccna_cert.pdf";
 import "./AtAGlance.css";
 
 const AtAGlance = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+
   const [expanded, setExpanded] = useState(true);
 
   /**
@@ -113,6 +116,12 @@ const AtAGlance = () => {
                 className="AtAGlance-EP-CardActions-Anchor"
                 href={ccnaPdf}
                 download="Rayson_CCNA.pdf"
+                onClick={(e) =>
+                  ReactGA.event({
+                    category: "E-certificate",
+                    action: `Clicked on CCNA E-certificate download button`,
+                  })
+                }
               >
                 <Button variant="outlined" color="secondary" size="small">
                   <Typography variant="overline">E-Certificate</Typography>
@@ -123,6 +132,12 @@ const AtAGlance = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
+                onClick={(e) =>
+                  ReactGA.event({
+                    category: "Learn more",
+                    action: `Clicked on CCNA learn more button`,
+                  })
+                }
               >
                 <Button variant="outlined" size="small">
                   <Typography variant="overline">Learn More</Typography>
