@@ -1,5 +1,5 @@
 import React from "react";
-import ReactGa from "react-ga";
+import ReactGA from "react-ga";
 import { Typography } from "@material-ui/core";
 import github from "../../icons/github.png";
 import linkedin from "../../icons/linkedin.png";
