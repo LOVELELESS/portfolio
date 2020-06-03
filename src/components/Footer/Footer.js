@@ -4,6 +4,7 @@ import { Typography } from "@material-ui/core";
 import github from "../../icons/github.png";
 import linkedin from "../../icons/linkedin.png";
 import email from "../../icons/email.png";
+import blog from "../../icons/blog.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -55,6 +56,19 @@ const Footer = () => {
           }
         >
           <img className="Footer-Icon" src={email} />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://blog.raysonkoh.com"
+          onClick={(e) =>
+            ReactGA.event({
+              category: "Visit contact info",
+              action: "Clicked on blog link",
+            })
+          }
+        >
+          <img className="Header-Icon" src={blog} />
         </a>
       </div>
     </div>
