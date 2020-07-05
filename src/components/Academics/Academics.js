@@ -49,6 +49,24 @@ const Academics = () => {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="Academics-Modules-EP-Details">
           <AcademicCard
+            link="https://nusmods.com/modules/CS2040S/data-structures-and-algorithms"
+            text={{
+              moduleCode: "CS2040S",
+              moduleName: "Data Structures and Algorithms",
+              moduleFaculty: "School of Computing",
+              moduleGrade: "A+",
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/ST2334/probability-and-statistics"
+            text={{
+              moduleCode: "ST2334",
+              moduleName: "Probability and Statistics",
+              moduleFaculty: "Department of Statistics and Applied Probability",
+              moduleGrade: "A",
+            }}
+          />
+          <AcademicCard
             link="https://nusmods.com/modules/CS2030/programming-methodology-ii"
             text={{
               moduleCode: "CS2030",
@@ -57,7 +75,6 @@ const Academics = () => {
               moduleGrade: "A",
             }}
           />
-
           <AcademicCard
             link="https://nusmods.com/modules/CS1231S/discrete-structures"
             text={{
