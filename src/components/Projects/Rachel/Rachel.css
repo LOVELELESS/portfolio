@@ -1,0 +1,60 @@
+.Rachel {
+  margin: 1em 0;
+}
+
+.Rachel-Media {
+  background-image: url(./Signin.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30em;
+}
+
+.Rachel-Media:hover {
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+
+.Rachel-Button {
+  margin: 0 1em !important;
+}
+
+.Rachel-Text {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.Rachel-ActionArea {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Rachel-Icons {
+}
+
+.Rachel-Icon {
+  margin: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .Rachel-Media {
+    height: 15em;
+  }
+
+  .Rachel-ActionArea {
+    justify-content: center;
+  }
+
+  .Rachel-ActionArea a {
+    margin: 0.5em;
+  }
+
+  .Rachel-Icons {
+    margin: 0.5em;
+  }
+}
