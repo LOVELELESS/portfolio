@@ -78,7 +78,7 @@ const Header = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:koh_rayson@yahoo.com.sg"
+            href="mailto:rayson.rk.koh@gmail.com"
             onClick={(e) =>
               ReactGA.event({
                 category: "Visit contact info",
