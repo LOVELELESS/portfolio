@@ -108,14 +108,14 @@ const AlgoVisualizer = () => {
             </Button>
           </a>
           <div className="AlgoVisualizer-Icons">
+            <CustomTooltip enterTouchDelay={30} title="Javascript">
+              <img className="AlgoVisualizer-Icon" src={javascript} />
+            </CustomTooltip>
             <CustomTooltip enterTouchDelay={30} title="React">
               <img className="AlgoVisualizer-Icon" src={react} />
             </CustomTooltip>
             <CustomTooltip enterTouchDelay={30} title="Redux">
               <img className="AlgoVisualizer-Icon" src={redux} />
-            </CustomTooltip>
-            <CustomTooltip enterTouchDelay={30} title="Javascript">
-              <img className="AlgoVisualizer-Icon" src={javascript} />
             </CustomTooltip>
           </div>
         </CardActions>
