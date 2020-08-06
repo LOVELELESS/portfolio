@@ -1,10 +1,11 @@
 import React from "react";
-import { Typography, Divider } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import govtech from "./govtech.png";
 import evantage from "./evantage.png";
 import soc from "./soc.jpg";
 import evantageTestimonial from "./Evantage-Testimonial.pdf";
+import govtechTestimonial from "./Govtech-Testimonial.pdf";
 import "./Experiences.css";
 
 const Experiences = () => {
@@ -26,9 +27,15 @@ const Experiences = () => {
           title2: "Software Engineering Internship (3 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
-            "Attached to the Government Digital Services team. Currently working on the Moments of Life mobile app.",
-          list: [],
+            "Worked on the Moments of Life (LifeSG) mobile app which has over 100,000 downloads. It supports Singapore citizens’ needs by integrating services across government agencies.",
+          list: [
+            "Developed a personalization backend service using Koa and Elasticsearch that queries for recommended content for the user in order to improve user engagement.",
+            "Implemented design team’s UX wireframes and mockups using TypeScript and React Native.",
+            "Set up feature toggle functionality on the frontend using Redux to allow for new features to be rolled out to production seamlessly.",
+          ],
         }}
+        letterOfRec={govtechTestimonial}
+        letterOfRecName="Recommendation letter for Rayson Koh.pdf"
       />
       <ExperienceCard
         image={evantage}
