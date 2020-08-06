@@ -4,7 +4,6 @@ import {
   Card,
   Button,
   CardContent,
-  CardActions,
   CardMedia,
   Typography,
 } from "@material-ui/core";
@@ -32,7 +31,6 @@ const ExperienceCard = (props) => {
           }
         >
           <CardMedia
-            title="media"
             className="ExperienceCard-Title-Media"
             title={props.alt}
             image={props.image}
