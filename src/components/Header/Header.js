@@ -26,7 +26,7 @@ const Header = () => {
         Currently:{" "}
       </Typography>
       <Typography variant="h6" display="inline">
-        Year 1 Computer Science Undergraduate @{" "}
+        Year 2 Computer Science Undergraduate @{" "}
         <Link
           target="_blank"
           rel="noopener noreferrer"
