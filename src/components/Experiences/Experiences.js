@@ -27,11 +27,11 @@ const Experiences = () => {
           title2: "Software Engineering Internship (3 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
-            "Worked on the Moments of Life (LifeSG) mobile app which has over 100,000 downloads. It supports Singapore citizens’ needs by integrating services across government agencies.",
+            "Worked on the Moments of Life (LifeSG) mobile app which integrates government services.",
           list: [
-            "Developed a personalization backend service using Koa and Elasticsearch that queries for recommended content for the user in order to improve user engagement.",
-            "Implemented design team’s UX wireframes and mockups using TypeScript and React Native.",
-            "Set up feature toggle functionality on the frontend using Redux to allow for new features to be rolled out to production seamlessly.",
+            "Developed a personalization backend service using Koa and Elasticsearch",
+            "Implemented UX mockups using TypeScript and React Native.",
+            "Set up frontend feature toggle using Redux to allow seamless rollout of features to production",
           ],
         }}
         letterOfRec={govtechTestimonial}
