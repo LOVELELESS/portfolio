@@ -21,7 +21,7 @@ const Footer = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/LOVELELESS"
+          href="https://github.com/raysonkoh"
           onClick={(e) =>
             ReactGA.event({
               category: "Visit contact info",

@@ -80,7 +80,7 @@ const Rachel = () => {
         <CardActions className="Rachel-ActionArea">
           <a
             style={{ textDecoration: "none" }}
-            href="https://github.com/LOVELELESS/Rachel"
+            href="https://github.com/raysonkoh/Rachel"
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) =>

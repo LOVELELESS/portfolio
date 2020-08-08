@@ -69,7 +69,7 @@ const AlgoVisualizer = () => {
         <CardActions className="AlgoVisualizer-ActionArea">
           <a
             style={{ textDecoration: "none" }}
-            href="https://github.com/LOVELELESS/cs2040s-algo-visualizer"
+            href="https://github.com/raysonkoh/cs2040s-algo-visualizer"
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) =>
