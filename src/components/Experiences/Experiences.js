@@ -24,7 +24,7 @@ const Experiences = () => {
         }}
         text={{
           title: "Government Technology Agency of Singapore (GovTech)",
-          title2: "Software Engineering Internship (3 Months)",
+          title2: "Software Engineer Intern (3 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
             "Worked on the Moments of Life (LifeSG) mobile app which integrates government services.",
@@ -47,7 +47,7 @@ const Experiences = () => {
         }}
         text={{
           title: "Evantage Technology Pte Ltd",
-          title2: "Engineering Internship (6 Months)",
+          title2: "IT Engineer Intern (6 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
             "Worked with the Engineering team to resolve technical tickets through onsite client visits and remote sessions.",
