@@ -46,7 +46,7 @@ const AtAGlance = () => {
                 Total GPA
               </Typography>
               <Typography variant="h6" color="secondary" component="h2">
-                4.68 / 5.0
+                4.79 / 5.0
               </Typography>
               <Typography
                 variant="subtitle1"
