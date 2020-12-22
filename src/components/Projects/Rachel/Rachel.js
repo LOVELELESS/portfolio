@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
-import { withStyles } from "@material-ui/core/styles";
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
+import {withStyles} from '@material-ui/core/styles';
 import {
   Tooltip,
   Button,
@@ -9,14 +9,14 @@ import {
   CardHeader,
   Typography,
   CardActions,
-} from "@material-ui/core";
-import typescript from "../../../icons/typescript.png";
-import reactNative from "../../../icons/react-native.png";
-import nodejs from "../../../icons/nodejs.png";
-import mongodb from "../../../icons/mongodb.png";
-import firebase from "../../../icons/firebase.png";
-import rachelAPK from "./app-universal-release.apk";
-import "./Rachel.css";
+} from '@material-ui/core';
+import typescript from '../../../icons/typescript.png';
+import reactNative from '../../../icons/react-native.png';
+import nodejs from '../../../icons/nodejs.png';
+import mongodb from '../../../icons/mongodb.png';
+import firebase from '../../../icons/firebase.png';
+import rachelAPK from './app-universal-release.apk';
+import './Rachel.css';
 
 const Rachel = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ const Rachel = () => {
 
   const CustomTooltip = withStyles((theme) => ({
     tooltip: {
-      fontSize: "1em",
+      fontSize: '1em',
     },
   }))(Tooltip);
 
@@ -33,7 +33,7 @@ const Rachel = () => {
     <Card className="Rachel">
       <CardHeader
         title="Rachel, the E-Receptionist"
-        titleTypographyProps={{ color: "primary", variant: "h5" }}
+        titleTypographyProps={{color: 'primary', variant: 'h5'}}
       />
       <Typography color="textSecondary" variant="subtitle1">
         A full-stack mobile app that helps businesses to streamline and simplify
@@ -48,7 +48,7 @@ const Rachel = () => {
           rel="noopener noreferrer"
           onClick={(e) =>
             ReactGA.event({
-              category: "Visit app",
+              category: 'Visit app',
               action: `Clicked on Rachel android apk download link`,
             })
           }
@@ -79,13 +79,13 @@ const Rachel = () => {
         </div>
         <CardActions className="Rachel-ActionArea">
           <a
-            style={{ textDecoration: "none" }}
+            style={{textDecoration: 'none'}}
             href="https://github.com/raysonkoh/Rachel"
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) =>
               ReactGA.event({
-                category: "Visit app repo",
+                category: 'Visit app repo',
                 action: `Clicked on Rachel github link`,
               })
             }
@@ -99,14 +99,14 @@ const Rachel = () => {
             </Button>
           </a>
           <a
-            style={{ textDecoration: "none" }}
+            style={{textDecoration: 'none'}}
             href={rachelAPK}
             download="Rachel.apk"
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) =>
               ReactGA.event({
-                category: "Visit app",
+                category: 'Visit app',
                 action: `Clicked on Rachel android apk download link`,
               })
             }

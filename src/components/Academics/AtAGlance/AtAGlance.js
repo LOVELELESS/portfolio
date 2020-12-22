@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
-import ReactGA from "react-ga";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import Avatar from "@material-ui/core/Avatar";
-import Button from "@material-ui/core/Button";
-import ccna from "./ccna_routerswitching_large.jpg";
-import ccnaPdf from "./ccna_cert.pdf";
-import "./AtAGlance.css";
+import React, {useState, useEffect} from 'react';
+import ReactGA from 'react-ga';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import ccna from './ccna_routerswitching_large.jpg';
+import ccnaPdf from './ccna_cert.pdf';
+import './AtAGlance.css';
 
 const AtAGlance = () => {
   useEffect(() => {
@@ -120,7 +120,7 @@ const AtAGlance = () => {
                 download="Rayson_CCNA.pdf"
                 onClick={(e) =>
                   ReactGA.event({
-                    category: "Retrieve supporting document",
+                    category: 'Retrieve supporting document',
                     action: `Clicked on CCNA E-certificate download link`,
                   })
                 }
@@ -137,7 +137,7 @@ const AtAGlance = () => {
                 href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
                 onClick={(e) =>
                   ReactGA.event({
-                    category: "Learn more",
+                    category: 'Learn more',
                     action: `Clicked on CCNA learn more link`,
                   })
                 }

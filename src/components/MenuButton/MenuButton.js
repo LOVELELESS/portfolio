@@ -1,7 +1,7 @@
-import React from "react";
-import { IconButton, Typography } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-import "./MenuButton.css";
+import React from 'react';
+import {IconButton, Typography} from '@material-ui/core';
+import {makeStyles} from '@material-ui/core/styles';
+import './MenuButton.css';
 
 const MenuButton = (props) => {
   /**
@@ -11,27 +11,27 @@ const MenuButton = (props) => {
    */
   const useStyles = makeStyles((theme) => ({
     iconButton: {
-      display: "flex",
-      flexDirection: "column",
-      color: props.highlighted ? "white" : "inherit",
+      display: 'flex',
+      flexDirection: 'column',
+      color: props.highlighted ? 'white' : 'inherit',
     },
   }));
 
   const classes = useStyles();
 
-  const backgroundClass = props.highlighted
-    ? "MenuButton-Highlight"
-    : "MenuButton-Inherit";
+  const backgroundClass = props.highlighted ?
+    'MenuButton-Highlight' :
+    'MenuButton-Inherit';
 
   return (
     <div className="MenuButton">
       <IconButton
         onClick={(e) => {
           props.onClick();
-          window.location = "#App-Button-Group";
+          window.location = '#App-Button-Group';
         }}
         className={backgroundClass}
-        classes={{ label: classes.iconButton }}
+        classes={{label: classes.iconButton}}
       >
         {props.renderIcon()}
         <Typography variant="subtitle1" gutterBottom>

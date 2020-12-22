@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
-import { Typography } from "@material-ui/core";
-import github from "../../icons/github.png";
-import linkedin from "../../icons/linkedin.png";
-import email from "../../icons/email.png";
-import blog from "../../icons/blog.png";
-import "./Footer.css";
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
+import {Typography} from '@material-ui/core';
+import github from '../../icons/github.png';
+import linkedin from '../../icons/linkedin.png';
+import email from '../../icons/email.png';
+import blog from '../../icons/blog.png';
+import './Footer.css';
 
 const Footer = () => {
   useEffect(() => {
@@ -24,8 +24,8 @@ const Footer = () => {
           href="https://github.com/raysonkoh"
           onClick={(e) =>
             ReactGA.event({
-              category: "Visit contact info",
-              action: "Clicked on github link",
+              category: 'Visit contact info',
+              action: 'Clicked on github link',
             })
           }
         >
@@ -37,8 +37,8 @@ const Footer = () => {
           href="https://sg.linkedin.com/in/raysonkoh"
           onClick={(e) =>
             ReactGA.event({
-              category: "Visit contact info",
-              action: "Clicked on linkedin link",
+              category: 'Visit contact info',
+              action: 'Clicked on linkedin link',
             })
           }
         >
@@ -50,8 +50,8 @@ const Footer = () => {
           href="mailto:rayson.rk.koh@gmail.com"
           onClick={(e) =>
             ReactGA.event({
-              category: "Visit contact info",
-              action: "Clicked on mail link",
+              category: 'Visit contact info',
+              action: 'Clicked on mail link',
             })
           }
         >
@@ -63,8 +63,8 @@ const Footer = () => {
           href="https://blog.raysonkoh.com"
           onClick={(e) =>
             ReactGA.event({
-              category: "Visit contact info",
-              action: "Clicked on blog link",
+              category: 'Visit contact info',
+              action: 'Clicked on blog link',
             })
           }
         >

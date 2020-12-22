@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
-import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
-import "./AcademicCard.css";
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import './AcademicCard.css';
 
 const AcademicCard = (props) => {
   useEffect(() => {
@@ -29,13 +29,13 @@ const AcademicCard = (props) => {
       </CardContent>
       <CardActions>
         <a
-          style={{ textDecoration: "none" }}
+          style={{textDecoration: 'none'}}
           target="_blank"
           rel="noopener noreferrer"
           href={props.link}
           onClick={(e) => {
             ReactGA.event({
-              category: "Learn more",
+              category: 'Learn more',
               action: `Clicked on ${props.text.moduleCode} Learn more link`,
             });
           }}

@@ -1,8 +1,8 @@
-import React from "react";
-import AlgoVisualizer from "./AlgoVisualizer/AlgoVisualizer";
-import Milkomeda from "./Milkomeda/Milkomeda";
-import Rachel from "./Rachel/Rachel";
-import "./Projects.css";
+import React from 'react';
+import AlgoVisualizer from './AlgoVisualizer/AlgoVisualizer';
+import Milkomeda from './Milkomeda/Milkomeda';
+import Rachel from './Rachel/Rachel';
+import './Projects.css';
 
 const Projects = () => {
   return (

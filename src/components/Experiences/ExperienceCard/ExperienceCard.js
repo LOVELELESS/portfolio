@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import ReactGA from "react-ga";
+import React, {useEffect} from 'react';
+import ReactGA from 'react-ga';
 import {
   Card,
   Button,
   CardContent,
   CardMedia,
   Typography,
-} from "@material-ui/core";
-import TimePeriod from "../TimePeriod/TimePeriod";
-import "./ExperienceCard.css";
+} from '@material-ui/core';
+import TimePeriod from '../TimePeriod/TimePeriod';
+import './ExperienceCard.css';
 
 const ExperienceCard = (props) => {
   useEffect(() => {
@@ -41,7 +41,7 @@ const ExperienceCard = (props) => {
             <Typography
               variant="h6"
               color="textPrimary"
-              style={{ marginRight: "1em" }}
+              style={{marginRight: '1em'}}
             >
               {props.text.title}
             </Typography>
@@ -70,7 +70,7 @@ const ExperienceCard = (props) => {
         <div className="ExperienceCard-Testimonial-Disabled">
           {props.testimonial ? (
             <a
-              style={{ textDecoration: "none" }}
+              style={{textDecoration: 'none'}}
               href={props.testimonial}
               download={props.testimonialName}
               onClick={(e) =>
