@@ -23,7 +23,7 @@ const AcademicCard = (props) => {
           {props.text.moduleFaculty}
         </Typography>
         <Typography className="AcademicCard-Grade" color="secondary">
-          <span>Grade:</span>
+          <span>Grade:{' '}</span>
           <span>{props.text.moduleGrade}</span>
         </Typography>
       </CardContent>

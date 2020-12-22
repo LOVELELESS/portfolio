@@ -1,8 +1,20 @@
 .AcademicCard {
-  margin: 1em 0;
+  margin: 1em 0.2em;
 }
 
 .AcademicCard-Grade {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+  .AcademicCard {
+    max-width: 40%;
+    min-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
 }
