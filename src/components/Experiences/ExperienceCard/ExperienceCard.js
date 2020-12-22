@@ -67,21 +67,21 @@ const ExperienceCard = (props) => {
             ))}
           </ul>
         )}
-        <div className="ExperienceCard-LetterOfRec">
-          {props.letterOfRec ? (
+        <div className="ExperienceCard-Testimonial-Disabled">
+          {props.testimonial ? (
             <a
               style={{ textDecoration: "none" }}
-              href={props.letterOfRec}
-              download={props.letterOfRecName}
+              href={props.testimonial}
+              download={props.testimonialName}
               onClick={(e) =>
                 ReactGA.event({
                   category: `Retrieve supporting document`,
-                  action: `Clicked on ${props.text.title} recommndation letter download link`,
+                  action: `Clicked on ${props.text.title} testimonial download link`,
                 })
               }
             >
-              <Button variant="outlined" color="secondary">
-                Letter of Recommendation
+              <Button variant="outlined" color="secondary" disabled>
+                Supervisor Testimonial (By request)
               </Button>
             </a>
           ) : (
