@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
-import ReactGA from "react-ga";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import AcademicCard from "./AcademicCard/AcademicCard";
-import AtAGlance from "./AtAGlance/AtAGlance";
-import "./Academics.css";
+import React, {useState, useEffect} from 'react';
+import ReactGA from 'react-ga';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import AcademicCard from './AcademicCard/AcademicCard';
+import AtAGlance from './AtAGlance/AtAGlance';
+import './Academics.css';
 
 const Academics = () => {
   useEffect(() => {
@@ -32,8 +32,8 @@ const Academics = () => {
           if (!modulesExpanded && !expandedAnalytics) {
             // set expanded event
             ReactGA.event({
-              category: "Notable modules",
-              action: "Clicked on ExpansionPanel to expand Notable modules",
+              category: 'Notable modules',
+              action: 'Clicked on ExpansionPanel to expand Notable modules',
             });
             setExpandedAnalytics(true);
           }
@@ -51,46 +51,46 @@ const Academics = () => {
           <AcademicCard
             link="https://nusmods.com/modules/CS2040S/data-structures-and-algorithms"
             text={{
-              moduleCode: "CS2040S",
-              moduleName: "Data Structures and Algorithms",
-              moduleFaculty: "School of Computing",
-              moduleGrade: "A+",
+              moduleCode: 'CS2040S',
+              moduleName: 'Data Structures and Algorithms',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A+',
             }}
           />
           <AcademicCard
             link="https://nusmods.com/modules/ST2334/probability-and-statistics"
             text={{
-              moduleCode: "ST2334",
-              moduleName: "Probability and Statistics",
-              moduleFaculty: "Department of Statistics and Applied Probability",
-              moduleGrade: "A",
+              moduleCode: 'ST2334',
+              moduleName: 'Probability and Statistics',
+              moduleFaculty: 'Department of Statistics and Applied Probability',
+              moduleGrade: 'A',
             }}
           />
           <AcademicCard
             link="https://nusmods.com/modules/CS2030/programming-methodology-ii"
             text={{
-              moduleCode: "CS2030",
-              moduleName: "Programming Methodology II",
-              moduleFaculty: "School of Computing",
-              moduleGrade: "A",
+              moduleCode: 'CS2030',
+              moduleName: 'Programming Methodology II',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A',
             }}
           />
           <AcademicCard
             link="https://nusmods.com/modules/CS1231S/discrete-structures"
             text={{
-              moduleCode: "CS1231S",
-              moduleName: "Discrete Structures",
-              moduleFaculty: "School of Computing",
-              moduleGrade: "A",
+              moduleCode: 'CS1231S',
+              moduleName: 'Discrete Structures',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A',
             }}
           />
           <AcademicCard
             link="https://nusmods.com/modules/CS1010X/programming-methodology"
             text={{
-              moduleCode: "CS1010X",
-              moduleName: "Programming Methodology",
-              moduleFaculty: "School of Computing",
-              moduleGrade: "A",
+              moduleCode: 'CS1010X',
+              moduleName: 'Programming Methodology',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A',
             }}
           />
         </ExpansionPanelDetails>
