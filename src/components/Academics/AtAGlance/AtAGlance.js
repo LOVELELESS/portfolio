@@ -124,9 +124,10 @@ const AtAGlance = () => {
                     action: `Clicked on CCNA E-certificate download link`,
                   })
                 }
+                style={{pointerEvents: 'none'}}
               >
-                <Button variant="outlined" color="secondary" size="small">
-                  <Typography variant="overline">E-Certificate</Typography>
+                <Button variant="outlined" color="secondary" size="small" disabled>
+                  <Typography variant="overline">E-Certificate (By request)</Typography>
                 </Button>
               </a>
               <a
