@@ -59,12 +59,12 @@ const AtAGlance = () => {
               <ul className="AtAGlance-EP-UL">
                 <li>
                   <Typography variant="subtitle2" color="textSecondary">
-                    Database Systems
+                    Algorithms and Theory
                   </Typography>
                 </li>
                 <li>
                   <Typography variant="subtitle2" color="textSecondary">
-                    Algorithms and Theory
+                    Database Systems
                   </Typography>
                 </li>
                 <li>
@@ -82,7 +82,7 @@ const AtAGlance = () => {
                 disabled
               >
                 <Typography variant="overline">
-                  Full Transcript (Please request for it)
+                  Full Transcript (By request)
                 </Typography>
               </Button>
             </CardActions>
