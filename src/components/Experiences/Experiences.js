@@ -29,9 +29,9 @@ const Experiences = () => {
           description:
             "Worked on the Moments of Life (LifeSG) mobile app which integrates government services.",
           list: [
-            "Developed a personalization backend service using Koa and Elasticsearch",
-            "Implemented UX mockups using TypeScript and React Native.",
-            "Set up frontend feature toggle using Redux to allow seamless rollout of features to production",
+            "Developed a recommendation backend service using Koa and Elasticsearch",
+            "Implemented UX mockups using TypeScript and React Native",
+            "Set up feature toggles using Redux and ConfigCat to allow seamless rollout of app features to production",
           ],
         }}
         testimonial={govtechTestimonial}
@@ -50,11 +50,11 @@ const Experiences = () => {
           title2: "IT Engineer Intern (6 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
-            "Worked with the Engineering team to resolve technical tickets through onsite client visits and remote sessions.",
+            "Worked with the Engineering team to resolve technical issues through onsite client visits and remote sessions.",
           list: [
-            "Migrated on-premise fileserver and knowledge-base to the cloud.",
-            "Workstation imaging with sysprep for quick deployment.",
-            "Developed a prototype digital receptionist based on the alexa echo device using Alexa Skills, AWS Lambda and EC2.",
+            "Migrated on-premise fileserver and knowledge-base to the cloud",
+            "Deployed workstations at scale using sysprep imaging",
+            "Developed a prototype digital receptionist app using Alexa Skills, AWS Lambda and EC2",
           ],
         }}
         testimonial={evantageTestimonial}
@@ -76,10 +76,10 @@ const Experiences = () => {
           title2: "CS2030 Lab Tutor (5 Months)",
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
-            "Was a lab tutor in a core Computer Science module which teaches Object-Oriented and Funtional Programming.",
+            "Worked as a lab tutor for a core Computer Science module which teaches Object-Oriented and Funtional Programming in Java.",
           list: [
-            "Conducted lab briefings for each lab session (total of 10 sessions).",
-            "Guide and assess students' lab submissions.",
+            "Conducted lab briefings for each lab session (total of 10 sessions)",
+            "Guide and assess students' lab submissions",
           ],
         }}
       />
