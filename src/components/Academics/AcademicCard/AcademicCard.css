@@ -1,5 +1,6 @@
 .AcademicCard {
   margin: 1em 0.2em;
+  flex-basis: 30%;
 }
 
 .AcademicCard-Grade {
@@ -7,14 +8,16 @@
   justify-content: space-between;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1023px) {
   /* tablets and desktop */
   .AcademicCard {
-    max-width: 40%;
-    min-width: 25%;
+    flex-basis: 47.5%;
   }
 }
 
 @media only screen and (max-width: 767px) {
   /* phones */
+  .AcademicCard {
+    flex-basis: 90%;
+  }
 }
