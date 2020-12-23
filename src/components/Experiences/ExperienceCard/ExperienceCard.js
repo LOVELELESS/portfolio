@@ -81,7 +81,7 @@ const ExperienceCard = (props) => {
               }
             >
               <Button variant="outlined" color="secondary" disabled>
-                Supervisor Testimonial (By request)
+                Letter of Recommendation (By request)
               </Button>
             </a>
           ) : (
