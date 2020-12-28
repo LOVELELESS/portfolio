@@ -46,7 +46,7 @@ const AtAGlance = () => {
                 Total GPA
               </Typography>
               <Typography variant="h6" color="secondary" component="h2">
-                4.79 / 5.0
+                4.75 / 5.0
               </Typography>
               <Typography
                 variant="subtitle1"
@@ -116,7 +116,7 @@ const AtAGlance = () => {
             <CardActions className="AtAGlance-EP-CardActions">
               <a
                 className="AtAGlance-EP-CardActions-Anchor"
-                href={ccnaPdf}
+                // href={ccnaPdf}
                 download="Rayson_CCNA.pdf"
                 onClick={(e) =>
                   ReactGA.event({
