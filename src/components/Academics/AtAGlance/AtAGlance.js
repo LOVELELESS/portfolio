@@ -42,37 +42,40 @@ const AtAGlance = () => {
         <ExpansionPanelDetails className="AtAGlance-EP-Details">
           <Card className="AtAGlance-EP-Card">
             <CardContent>
-              <Typography variant="h6" color="primary">
-                Total GPA
+              <Typography variant="h6" color="primary" gutterBottom>
+                Degree Programme
               </Typography>
-              <Typography variant="h6" color="secondary" component="h2">
-                4.75 / 5.0
+              <Typography variant="body1" color="primary">
+                BACHELOR OF COMPUTING (COMPUTER SCIENCE)
+              </Typography>
+              <Typography gutterBottom variant="body1" color="primary">
+                WITH A MINOR IN MATHEMATICS
+              </Typography>
+              <Typography variant="body1" color="textPrimary">
+                Specializations:
+              </Typography>
+              <ul className="AtAGlance-EP-UL">
+                <li>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Algorithms & Theory
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Programming Languages
+                  </Typography>
+                </li>
+              </ul>
+              <br />
+              <Typography variant="subtitle1" color="secondary">
+                Total GPA: 4.75 / 5.00
               </Typography>
               <Typography
                 variant="subtitle1"
                 color="textSecondary"
-                gutterBottom
               >
                 First Class Honours
               </Typography>
-              <Typography color="textPrimary">Specializations</Typography>
-              <ul className="AtAGlance-EP-UL">
-                <li>
-                  <Typography variant="subtitle2" color="textSecondary">
-                    Algorithms and Theory
-                  </Typography>
-                </li>
-                <li>
-                  <Typography variant="subtitle2" color="textSecondary">
-                    Database Systems
-                  </Typography>
-                </li>
-                <li>
-                  <Typography variant="subtitle2" color="textSecondary">
-                    Networking and Distributed Systems
-                  </Typography>
-                </li>
-              </ul>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
               <Button
@@ -97,17 +100,17 @@ const AtAGlance = () => {
               </Typography>
               <ul className="AtAGlance-EP-UL">
                 <li>
-                  <Typography variant="subtitle2" color="textSecondary">
+                  <Typography variant="subtitle1" color="textPrimary">
                     Network fundamentals
                   </Typography>
                 </li>
                 <li>
-                  <Typography variant="subtitle2" color="textSecondary">
+                  <Typography variant="subtitle1" color="textPrimary">
                     LAN switching technologies
                   </Typography>
                 </li>
                 <li>
-                  <Typography variant="subtitle2" color="textSecondary">
+                  <Typography variant="subtitle1" color="textPrimary">
                     IPv4 and IPv6 routing technologies
                   </Typography>
                 </li>
