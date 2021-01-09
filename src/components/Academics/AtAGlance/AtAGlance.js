@@ -46,7 +46,7 @@ const AtAGlance = () => {
                 Degree Programme
               </Typography>
               <Typography variant="body1" color="primary">
-                Bachelor of Computing (Computer Science)
+                Bachelor of Computing (Honours) in Computer Science
               </Typography>
               <Typography gutterBottom variant="body1" color="primary">
                 with a Minor in Mathematics
