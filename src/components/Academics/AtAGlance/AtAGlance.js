@@ -62,7 +62,7 @@ const AtAGlance = () => {
                 </li>
                 <li>
                   <Typography variant="subtitle1" color="textPrimary">
-                    Programming Languages
+                    Database Systems
                   </Typography>
                 </li>
               </ul>
