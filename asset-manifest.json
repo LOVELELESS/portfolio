@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.503e73cc.chunk.css",
+    "main.js": "/portfolio/static/js/main.77d1b5b5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.77d1b5b5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.f887a012.chunk.js": "/portfolio/static/js/2.f887a012.chunk.js",
+    "static/js/2.f887a012.chunk.js.map": "/portfolio/static/js/2.f887a012.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4f4c691370da9e78abbf8da314931db1.js": "/portfolio/precache-manifest.4f4c691370da9e78abbf8da314931db1.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.503e73cc.chunk.css.map": "/portfolio/static/css/main.503e73cc.chunk.css.map",
+    "static/js/2.f887a012.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f887a012.chunk.js.LICENSE.txt",
+    "static/media/AlgoVisualizer.css": "/portfolio/static/media/AlgoVisualizer_better.62907aa5.jpg",
+    "static/media/Evantage-Testimonial.pdf": "/portfolio/static/media/Evantage-Testimonial.ad8e09fd.pdf",
+    "static/media/Govtech-Testimonial.pdf": "/portfolio/static/media/Govtech-Testimonial.5859876b.pdf",
+    "static/media/Rayson_CVE-2019-0708-REDACTED.pdf": "/portfolio/static/media/Rayson_CVE-2019-0708-REDACTED.5bf73482.pdf",
+    "static/media/Rachel.css": "/portfolio/static/media/Signin.8f098251.png",
+    "static/media/app-universal-release.apk": "/portfolio/static/media/app-universal-release.67c44241.apk",
+    "static/media/Milkomeda.css": "/portfolio/static/media/bluekeep.e53a5f67.jpeg",
+    "static/media/ccna_cert.pdf": "/portfolio/static/media/ccna_cert.a0be0033.pdf",
+    "static/media/ccna_routerswitching_large.jpg": "/portfolio/static/media/ccna_routerswitching_large.f463928c.jpg",
+    "static/media/evantage.png": "/portfolio/static/media/evantage.d1269853.png",
+    "static/media/govtech.png": "/portfolio/static/media/govtech.a18ddbdb.png",
+    "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.9ba8c9de.jpg",
+    "static/media/soc.jpg": "/portfolio/static/media/soc.f31ddfae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.f887a012.chunk.js",
+    "static/css/main.503e73cc.chunk.css",
+    "static/js/main.77d1b5b5.chunk.js"
+  ]
+}
