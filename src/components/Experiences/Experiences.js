@@ -34,7 +34,7 @@ const Experiences = () => {
             'Set up feature toggles using Redux and ConfigCat to allow seamless rollout of app features to production',
           ],
         }}
-        // testimonial={govtechTestimonial}
+        testimonial={govtechTestimonial}
         testimonialName="Recommendation letter for Rayson Koh.pdf"
       />
       <ExperienceCard
@@ -57,7 +57,7 @@ const Experiences = () => {
             'Developed a prototype digital receptionist app using Alexa Skills, AWS Lambda and EC2',
           ],
         }}
-        // testimonial={evantageTestimonial}
+        testimonial={evantageTestimonial}
         testimonialName="Rayson-Intern-Testimonial-2019.pdf"
       />
       <Typography variant="h4" style={{color: 'white', textAlign: 'center'}}>

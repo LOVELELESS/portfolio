@@ -71,8 +71,8 @@ const ExperienceCard = (props) => {
           {props.testimonial ? (
             <a
               style={{textDecoration: 'none'}}
-              href={props.testimonial}
-              download={props.testimonialName}
+              // href={props.testimonial}
+              // download={props.testimonialName}
               onClick={(e) =>
                 ReactGA.event({
                   category: `Retrieve supporting document`,
