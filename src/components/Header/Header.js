@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
-import {Link, Avatar, Typography} from '@material-ui/core';
+import { Link, Avatar, Typography } from '@material-ui/core';
 import pic from './profile_pic.jpg';
 import github from '../../icons/github.png';
 import linkedin from '../../icons/linkedin.png';
 import email from '../../icons/email.png';
-import blog from '../../icons/blog.png';
 import './Header.css';
 
 const Header = () => {
@@ -15,18 +14,15 @@ const Header = () => {
 
   return (
     <div className="Header">
-      <div className="Header-Avatar-Container">
-        <Avatar alt="Rayson Koh" className="Header-Avatar" src={pic} />
-      </div>
       <Typography variant="h2">Hello! I am Rayson.</Typography>
-      <Typography variant="h2" gutterBottom>
-        I like to work on interesting and complex software projects.
+      <Typography variant="h3" gutterBottom>
+        I am deeply interested in developing <b>high performance</b> and <b>fault-tolerant</b> systems.
       </Typography>
       <Typography variant="h6" color="secondary" display="inline" gutterBottom>
         Currently:{' '}
       </Typography>
       <Typography variant="h6" display="inline">
-        Year 2 Computer Science Undergraduate @{' '}
+        Year 3 Computer Science Undergraduate @{' '}
         <Link
           target="_blank"
           rel="noopener noreferrer"
@@ -87,19 +83,6 @@ const Header = () => {
             }
           >
             <img className="Header-Icon" src={email} />
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://blog.raysonkoh.com"
-            onClick={(e) =>
-              ReactGA.event({
-                category: 'Visit contact info',
-                action: 'Clicked on blog link',
-              })
-            }
-          >
-            <img className="Header-Icon" src={blog} />
           </a>
         </div>
       </div>

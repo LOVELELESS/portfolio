@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactGA from 'react-ga';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
@@ -49,6 +49,42 @@ const Academics = () => {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="Academics-Modules-EP-Details">
           <AcademicCard
+            link="https://nusmods.com/modules/CS3281/thematic-systems-project-i"
+            text={{
+              moduleCode: 'CS3281',
+              moduleName: 'Thematic Systems Project I',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS3223/database-systems-implementation"
+            text={{
+              moduleCode: 'CS3223',
+              moduleName: 'Database Systems Implementation',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS2106/introduction-to-operating-systems"
+            text={{
+              moduleCode: 'CS2106',
+              moduleName: 'Introduction to Operating Systems',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A-',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS2105/introduction-to-computer-networks"
+            text={{
+              moduleCode: 'CS2105',
+              moduleName: 'Introduction to Computer Networks',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A+',
+            }}
+          />
+          <AcademicCard
             link="https://nusmods.com/modules/CS3230/design-and-analysis-of-algorithms"
             text={{
               moduleCode: 'CS3230',
@@ -82,6 +118,15 @@ const Academics = () => {
               moduleName: 'Data Structures and Algorithms',
               moduleFaculty: 'School of Computing',
               moduleGrade: 'A+',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS2100/computer-organisation"
+            text={{
+              moduleCode: 'CS2100',
+              moduleName: 'Computer Organisation',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A-',
             }}
           />
           <AcademicCard

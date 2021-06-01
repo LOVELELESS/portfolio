@@ -1,9 +1,10 @@
 import React from 'react';
-import {Typography} from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import ExperienceCard from './ExperienceCard/ExperienceCard';
 import govtech from './govtech.png';
 import evantage from './evantage.png';
 import soc from './soc.jpg';
+import shopee from './shopee.jpeg';
 import evantageTestimonial from './Evantage-Testimonial.pdf';
 import govtechTestimonial from './Govtech-Testimonial.pdf';
 import './Experiences.css';
@@ -11,9 +12,25 @@ import './Experiences.css';
 const Experiences = () => {
   return (
     <div className="Experiences">
-      <Typography variant="h4" style={{color: 'white', textAlign: 'center'}}>
+      <Typography variant="h4" style={{ color: 'white', textAlign: 'center' }}>
         Internships
       </Typography>
+      <ExperienceCard
+        image={shopee}
+        alt="Shopee"
+        link="https://shopee.sg/"
+        date={{
+          from: 'May 2021',
+          to: 'Aug 2021',
+        }}
+        text={{
+          title: 'Shopee Singapore Private Limited',
+          title2: 'Software Engineer Intern (3 Months)',
+          // maybe change this to a render function to be able to render out Links and stuff like that?
+          description:
+            'Currently working in the Shared Services team',
+        }}
+      />
       <ExperienceCard
         image={govtech}
         alt="GovTech"
@@ -60,7 +77,7 @@ const Experiences = () => {
         testimonial={evantageTestimonial}
         testimonialName="Rayson-Intern-Testimonial-2019.pdf"
       />
-      <Typography variant="h4" style={{color: 'white', textAlign: 'center'}}>
+      <Typography variant="h4" style={{ color: 'white', textAlign: 'center' }}>
         Teaching Experience
       </Typography>
       <ExperienceCard

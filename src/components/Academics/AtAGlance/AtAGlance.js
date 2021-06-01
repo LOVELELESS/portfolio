@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactGA from 'react-ga';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
@@ -62,13 +62,18 @@ const AtAGlance = () => {
                 </li>
                 <li>
                   <Typography variant="subtitle1" color="textPrimary">
-                    Database Systems
+                    Parallel Computing
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Networking and Distributed Systems
                   </Typography>
                 </li>
               </ul>
               <br />
               <Typography variant="subtitle1" color="secondary">
-                Total GPA: 4.75 / 5.00
+                Total GPA: 4.78 / 5.00
               </Typography>
               <Typography
                 variant="subtitle1"
@@ -127,7 +132,7 @@ const AtAGlance = () => {
                     action: `Clicked on CCNA E-certificate download link`,
                   })
                 }
-                style={{pointerEvents: 'none'}}
+                style={{ pointerEvents: 'none' }}
               >
                 <Button variant="outlined" color="secondary" size="small" disabled>
                   <Typography variant="overline">E-Certificate (By request)</Typography>
