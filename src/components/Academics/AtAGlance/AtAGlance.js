@@ -51,28 +51,7 @@ const AtAGlance = () => {
               <Typography gutterBottom variant="body1" color="primary">
                 with a Minor in Mathematics
               </Typography>
-              <Typography variant="body1" color="textPrimary">
-                Specializations:
-              </Typography>
-              <ul className="AtAGlance-EP-UL">
-                <li>
-                  <Typography variant="subtitle1" color="textPrimary">
-                    Algorithms & Theory
-                  </Typography>
-                </li>
-                <li>
-                  <Typography variant="subtitle1" color="textPrimary">
-                    Parallel Computing
-                  </Typography>
-                </li>
-                <li>
-                  <Typography variant="subtitle1" color="textPrimary">
-                    Networking and Distributed Systems
-                  </Typography>
-                </li>
-              </ul>
-              <br />
-              <Typography variant="subtitle1" color="secondary">
+              <Typography variant="subtitle1" color="secondary" gutterBottom>
                 Total GPA: 4.78 / 5.00
               </Typography>
               <Typography
@@ -80,6 +59,12 @@ const AtAGlance = () => {
                 color="textSecondary"
               >
                 First Class Honours
+              </Typography>
+              <Typography
+                variant="subtitle2"
+                color="textSecondary"
+              >
+                Dean's List AY20/21 Semester 2
               </Typography>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">

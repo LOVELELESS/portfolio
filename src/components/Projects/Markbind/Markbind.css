@@ -1,0 +1,60 @@
+.Markbind {
+  margin: 1em 0;
+}
+
+.Markbind-Media {
+  background-image: url(./Markbind.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10em;
+}
+
+.Markbind-Media:hover {
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+
+.Markbind-Button {
+  margin: 0 1em !important;
+}
+
+.Markbind-Text {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.Markbind-ActionArea {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Markbind-Icons {
+}
+
+.Markbind-Icon {
+  margin: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .Markbind-Media {
+    height: 15em;
+  }
+
+  .Markbind-ActionArea {
+    justify-content: center;
+  }
+
+  .Markbind-ActionArea a {
+    margin: 0.5em;
+  }
+
+  .Markbind-Icons {
+    margin: 0.5em;
+  }
+}

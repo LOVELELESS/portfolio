@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard/ExperienceCard';
 import govtech from './govtech.png';
 import evantage from './evantage.png';
 import soc from './soc.jpg';
-import shopee from './shopee.jpeg';
+import shopee from './shopee.png';
 import evantageTestimonial from './Evantage-Testimonial.pdf';
 import govtechTestimonial from './Govtech-Testimonial.pdf';
 import './Experiences.css';
@@ -28,7 +28,7 @@ const Experiences = () => {
           title2: 'Software Engineer Intern (3 Months)',
           // maybe change this to a render function to be able to render out Links and stuff like that?
           description:
-            'Currently working in the Shared Services team',
+            'Currently working in the Shared Services team.',
         }}
       />
       <ExperienceCard

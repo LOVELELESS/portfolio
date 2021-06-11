@@ -14,10 +14,7 @@ const Header = () => {
 
   return (
     <div className="Header">
-      <Typography variant="h2">Hello! I am Rayson.</Typography>
-      <Typography variant="h3" gutterBottom>
-        I am deeply interested in developing <b>high performance</b> and <b>fault-tolerant</b> systems.
-      </Typography>
+      <Typography variant="h1" align='center' gutterBottom>Rayson Koh</Typography>
       <Typography variant="h6" color="secondary" display="inline" gutterBottom>
         Currently:{' '}
       </Typography>
@@ -35,8 +32,16 @@ const Header = () => {
             })
           }
         >
-          National University of Singapore
+          National University of Singapore (NUS)
         </Link>
+      </Typography>
+      <br />
+      <br />
+      <Typography variant="h6" color="secondary" display="inline" gutterBottom>
+        Focus Areas:{' '}
+      </Typography>
+      <Typography variant="h6" display="inline">
+        Algorithms & Theory, Parallel Computing, Networking and Distributed Systems
       </Typography>
       <br />
       <br />

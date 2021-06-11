@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import {
   Tooltip,
   Button,
@@ -33,7 +33,7 @@ const Rachel = () => {
     <Card className="Rachel">
       <CardHeader
         title="Rachel, the E-Receptionist"
-        titleTypographyProps={{color: 'primary', variant: 'h5'}}
+        titleTypographyProps={{ color: 'primary', variant: 'h5' }}
       />
       <Typography color="textSecondary" variant="subtitle1">
         A full-stack mobile app that helps businesses to streamline and simplify
@@ -79,7 +79,7 @@ const Rachel = () => {
         </div>
         <CardActions className="Rachel-ActionArea">
           <a
-            style={{textDecoration: 'none'}}
+            style={{ textDecoration: 'none' }}
             href="https://github.com/raysonkoh/Rachel"
             target="_blank"
             rel="noopener noreferrer"
@@ -99,7 +99,7 @@ const Rachel = () => {
             </Button>
           </a>
           <a
-            style={{textDecoration: 'none'}}
+            style={{ textDecoration: 'none' }}
             href={rachelAPK}
             download="Rachel.apk"
             target="_blank"

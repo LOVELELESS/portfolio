@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactGA from 'react-ga';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
@@ -10,7 +10,7 @@ import Academics from './components/Academics/Academics';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import './App.css';
-import {Divider} from '@material-ui/core';
+import { Divider } from '@material-ui/core';
 
 // eslint-disable-next-line require-jsdoc
 function App() {

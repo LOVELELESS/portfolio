@@ -4,7 +4,6 @@ import { Typography } from '@material-ui/core';
 import github from '../../icons/github.png';
 import linkedin from '../../icons/linkedin.png';
 import email from '../../icons/email.png';
-import blog from '../../icons/blog.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -58,6 +57,9 @@ const Footer = () => {
           <img className="Footer-Icon" src={email} />
         </a>
       </div>
+      <Typography variant="caption">
+        Icons are sourced from icons8.com
+      </Typography>
     </div>
   );
 };
