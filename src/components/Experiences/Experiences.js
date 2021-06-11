@@ -70,8 +70,8 @@ const Experiences = () => {
             'Worked with the Engineering team to resolve technical issues through onsite client visits and remote sessions.',
           list: [
             'Migrated on-premise fileserver and knowledge-base to the cloud',
+            'Troubleshooted on-site network issues',
             'Deployed workstations at scale using sysprep imaging',
-            'Developed a prototype digital receptionist app using Alexa Skills, AWS Lambda and EC2',
           ],
         }}
         testimonial={evantageTestimonial}
