@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d911e0f868db4f8c26ea43098694229",
+    "revision": "76e9e554c7eaceb5113cd0cf9c7ce385",
     "url": "/index.html"
   },
   {
-    "revision": "7f2198fe974644b3c511",
-    "url": "/static/css/main.22258af3.chunk.css"
+    "revision": "e705f0342156b1ec615f",
+    "url": "/static/css/main.b9e35d38.chunk.css"
   },
   {
-    "revision": "5509fb43e8ecb529a757",
-    "url": "/static/js/2.bd9147cc.chunk.js"
+    "revision": "22aeeadc854ee51b1ac2",
+    "url": "/static/js/2.741fcc1d.chunk.js"
   },
   {
     "revision": "fde5ff8f4122a466397a13ef98d4f94d",
-    "url": "/static/js/2.bd9147cc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.741fcc1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f2198fe974644b3c511",
-    "url": "/static/js/main.2a3c570b.chunk.js"
+    "revision": "e705f0342156b1ec615f",
+    "url": "/static/js/main.e23efcc7.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5859876b2a6de4e8fcda922e84f5c914",
     "url": "/static/media/Govtech-Testimonial.5859876b.pdf"
+  },
+  {
+    "revision": "5f4650c78dfecc27f04e8f68e8d42f3c",
+    "url": "/static/media/Markbind.5f4650c7.png"
   },
   {
     "revision": "5bf734826e40f8375109f9bb52416ef1",
@@ -72,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile_pic.9ba8c9de.jpg"
   },
   {
-    "revision": "effd2efc35275dbb2be242bcffd14146",
-    "url": "/static/media/shopee.effd2efc.jpeg"
+    "revision": "52aab6274d7315a44caea7d665c5095b",
+    "url": "/static/media/shopee.52aab627.png"
   },
   {
     "revision": "f31ddfae5566a78fae1a519e11a1ffff",
