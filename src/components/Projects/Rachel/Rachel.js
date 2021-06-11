@@ -42,18 +42,17 @@ const Rachel = () => {
       </Typography>
       <CardContent>
         <a
-          href={rachelAPK}
-          download="Rachel.apk"
+          href="https://github.com/raysonkoh/Rachel"
           target="_blank"
           rel="noopener noreferrer"
           onClick={(e) =>
             ReactGA.event({
               category: 'Visit app',
-              action: `Clicked on Rachel android apk download link`,
+              action: `Clicked on Rachel github link`,
             })
           }
         >
-          <div className="Rachel-Media"></div>
+          <div class="Rachel-Media"></div>
         </a>
         <div className="Rachel-Text">
           <Typography variant="body1" color="textPrimary">
