@@ -98,27 +98,6 @@ const Rachel = () => {
               Github Repo
             </Button>
           </a>
-          <a
-            style={{ textDecoration: 'none' }}
-            href={rachelAPK}
-            download="Rachel.apk"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) =>
-              ReactGA.event({
-                category: 'Visit app',
-                action: `Clicked on Rachel android apk download link`,
-              })
-            }
-          >
-            <Button
-              variant="outlined"
-              className="Rachel-Button"
-              color="secondary"
-            >
-              Download Android APK
-            </Button>
-          </a>
           <div className="Rachel-Icons">
             <CustomTooltip enterTouchDelay={30} title="Typescript">
               <img className="Rachel-Icon" src={typescript} />
