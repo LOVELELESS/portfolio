@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.b9e35d38.chunk.css",
-    "main.js": "/static/js/main.59a8b379.chunk.js",
-    "main.js.map": "/static/js/main.59a8b379.chunk.js.map",
+    "main.js": "/static/js/main.3a2e5233.chunk.js",
+    "main.js.map": "/static/js/main.3a2e5233.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.ecf60d37.chunk.js": "/static/js/2.ecf60d37.chunk.js",
-    "static/js/2.ecf60d37.chunk.js.map": "/static/js/2.ecf60d37.chunk.js.map",
+    "static/js/2.c335cd4e.chunk.js": "/static/js/2.c335cd4e.chunk.js",
+    "static/js/2.c335cd4e.chunk.js.map": "/static/js/2.c335cd4e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ea2a4d5e89f754ec8784d58af8e52dc.js": "/precache-manifest.2ea2a4d5e89f754ec8784d58af8e52dc.js",
+    "precache-manifest.97d5734342ec987e7dd345f8e633e36a.js": "/precache-manifest.97d5734342ec987e7dd345f8e633e36a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b9e35d38.chunk.css.map": "/static/css/main.b9e35d38.chunk.css.map",
-    "static/js/2.ecf60d37.chunk.js.LICENSE.txt": "/static/js/2.ecf60d37.chunk.js.LICENSE.txt",
+    "static/js/2.c335cd4e.chunk.js.LICENSE.txt": "/static/js/2.c335cd4e.chunk.js.LICENSE.txt",
     "static/media/AlgoVisualizer.css": "/static/media/AlgoVisualizer_better.62907aa5.jpg",
-    "static/media/Evantage-Testimonial.pdf": "/static/media/Evantage-Testimonial.ad8e09fd.pdf",
-    "static/media/Govtech-Testimonial.pdf": "/static/media/Govtech-Testimonial.5859876b.pdf",
     "static/media/Markbind.css": "/static/media/Markbind.5f4650c7.png",
     "static/media/Rayson_CVE-2019-0708-REDACTED.pdf": "/static/media/Rayson_CVE-2019-0708-REDACTED.5bf73482.pdf",
     "static/media/Rachel.css": "/static/media/Signin.8f098251.png",
     "static/media/app-universal-release.apk": "/static/media/app-universal-release.67c44241.apk",
+    "static/media/blank.pdf": "/static/media/blank.ee488381.pdf",
     "static/media/Milkomeda.css": "/static/media/bluekeep.e53a5f67.jpeg",
     "static/media/ccna_cert.pdf": "/static/media/ccna_cert.a0be0033.pdf",
     "static/media/ccna_routerswitching_large.jpg": "/static/media/ccna_routerswitching_large.f463928c.jpg",
@@ -30,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.ecf60d37.chunk.js",
+    "static/js/2.c335cd4e.chunk.js",
     "static/css/main.b9e35d38.chunk.css",
-    "static/js/main.59a8b379.chunk.js"
+    "static/js/main.3a2e5233.chunk.js"
   ]
 }
