@@ -41,7 +41,7 @@ const Header = () => {
         Focus Areas:{' '}
       </Typography>
       <Typography variant="h6" display="inline">
-        Algorithms & Theory, Parallel Computing, Networking and Distributed Systems
+        Algorithms & Theory, Networking & Distributed Systems, Programming Languages
       </Typography>
       <br />
       <br />
