@@ -66,6 +66,12 @@ const AtAGlance = () => {
               >
                 Dean's List AY20/21 Semester 2
               </Typography>
+              <Typography
+                variant="subtitle2"
+                color="textSecondary"
+              >
+                Dean's List AY21/22 Semester 1
+              </Typography>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
               <Button
@@ -143,7 +149,7 @@ const AtAGlance = () => {
           </Card>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-    </div>
+    </div >
   );
 };
 
