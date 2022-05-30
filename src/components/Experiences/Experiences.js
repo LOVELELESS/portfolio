@@ -5,6 +5,7 @@ import govtech from './govtech.png';
 import evantage from './evantage.png';
 import soc from './soc.jpg';
 import shopee from './shopee.png';
+import google from './google.png';
 import blank from './blank.pdf';
 import './Experiences.css';
 
@@ -14,6 +15,27 @@ const Experiences = () => {
       <Typography variant="h4" style={{ color: 'white', textAlign: 'center' }}>
         Internships
       </Typography>
+      <ExperienceCard
+        image={google}
+        alt="Google"
+        link="https://google.com/"
+        date={{
+          from: 'May 2022',
+          to: 'Aug 2022',
+        }}
+        text={{
+          title: 'Google',
+          title2: 'Software Engineer Intern (3 Months)',
+          // maybe change this to a render function to be able to render out Links and stuff like that?
+          description:
+            'Payments Platform, Payments Security',
+          list: [
+            'Currently developing an efficient caching solution for payments security-related checks',
+          ],
+        }}
+        testimonial={blank}
+        testimonialName=""
+      />
       <ExperienceCard
         image={shopee}
         alt="Shopee"

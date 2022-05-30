@@ -19,7 +19,7 @@ const Header = () => {
         Currently:{' '}
       </Typography>
       <Typography variant="h6" display="inline">
-        Year 3 Computer Science Undergraduate @{' '}
+        Year 4 Computer Science Undergraduate @{' '}
         <Link
           target="_blank"
           rel="noopener noreferrer"

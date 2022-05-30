@@ -49,6 +49,42 @@ const Academics = () => {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="Academics-Modules-EP-Details">
           <AcademicCard
+            link="https://nusmods.com/modules/CS4231/parallel-and-distributed-algorithms"
+            text={{
+              moduleCode: 'CS4231',
+              moduleName: 'Parallel and Distributed Algorithms',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A+',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS4215/programming-language-implementation"
+            text={{
+              moduleCode: 'CS4215',
+              moduleName: 'Programming Language Implementation',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A+',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/CS2107/introduction-to-information-security"
+            text={{
+              moduleCode: 'CS2107',
+              moduleName: 'Introduction to Information Security',
+              moduleFaculty: 'School of Computing',
+              moduleGrade: 'A+',
+            }}
+          />
+          <AcademicCard
+            link="https://nusmods.com/modules/MA3233/combinatorics-and-graphs-ii"
+            text={{
+              moduleCode: 'MA3233',
+              moduleName: 'Combinatorics and Graphs II',
+              moduleFaculty: 'Department of Mathematics',
+              moduleGrade: 'A',
+            }}
+          />
+          <AcademicCard
             link="https://nusmods.com/modules/CS4234/optimisation-algorithms"
             text={{
               moduleCode: 'CS4234',
