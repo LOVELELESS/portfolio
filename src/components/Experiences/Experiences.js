@@ -30,7 +30,7 @@ const Experiences = () => {
           description:
             'Payments Platform, Payments Security',
           list: [
-            'Currently developing an efficient caching solution for payments security-related checks',
+            'Currently developing an efficient caching solution for checking security parameters of production groups and users',
           ],
         }}
         testimonial={blank}
