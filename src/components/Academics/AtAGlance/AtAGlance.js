@@ -64,6 +64,12 @@ const AtAGlance = () => {
                 variant="subtitle2"
                 color="textSecondary"
               >
+                <a href="https://credentials.nus.edu.sg/565551f9-aa61-4dab-8910-ac56b7e9e31e">Algorithms & Theory Focus Area (Distinction)</a>
+              </Typography>
+              <Typography
+                variant="subtitle2"
+                color="textSecondary"
+              >
                 <a href="https://credentials.nus.edu.sg/9c9c8592-58f2-4cf2-b877-46fbb64e8dfd">Dean's List AY20/21 Semester 2</a>
               </Typography>
               <Typography

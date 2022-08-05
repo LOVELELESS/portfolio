@@ -30,7 +30,9 @@ const Experiences = () => {
           description:
             'Payments Platform, Payments Security',
           list: [
-            'Currently developing an efficient caching solution for checking security parameters of production groups and users',
+            'Implemented an efficient caching solution for checking security parameters of production groups and users',
+            'Developed a dashboard for monitoring service latency with caching layer enabled',
+            'Refactored common security library which led to improved testability'
           ],
         }}
         testimonial={blank}

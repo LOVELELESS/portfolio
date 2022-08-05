@@ -74,9 +74,9 @@ const Markbind = () => {
           </Typography>
           <Typography variant="body1" color="textSecondary">
             <ul>
-              <li>Added support for Pull Request previews for Markbind sites.</li>
-              <li>Improved support for deploying Markbind sites to more CI providers.</li>
-              <li>Guided new contributors in their Pull Request submissions.</li>
+              <li>Added support for Pull Request previews for Markbind sites</li>
+              <li>Improved support for deploying Markbind sites to more CI providers</li>
+              <li>Guided new contributors in their Pull Request submissions</li>
             </ul>
           </Typography>
         </div>

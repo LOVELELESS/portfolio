@@ -1,0 +1,60 @@
+.OContract {
+  margin: 1em 0;
+}
+
+.OContract-Media {
+  background-image: url(./OContract.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10em;
+}
+
+.OContract-Media:hover {
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
+
+.OContract-Button {
+  margin: 0 1em !important;
+}
+
+.OContract-Text {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.OContract-ActionArea {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.OContract-Icons {
+}
+
+.OContract-Icon {
+  margin: 0.2em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .OContract-Media {
+    height: 15em;
+  }
+
+  .OContract-ActionArea {
+    justify-content: center;
+  }
+
+  .OContract-ActionArea a {
+    margin: 0.5em;
+  }
+
+  .OContract-Icons {
+    margin: 0.5em;
+  }
+}
