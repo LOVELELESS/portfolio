@@ -52,13 +52,19 @@ const AtAGlance = () => {
                 with a Minor in Mathematics
               </Typography>
               <Typography variant="subtitle1" color="secondary" gutterBottom>
-                Total GPA: 4.83 / 5.00
+                GPA: 4.83 / 5.00
               </Typography>
               <Typography
-                variant="subtitle1"
+                variant="subtitle2"
                 color="textSecondary"
               >
-                First Class Honours
+                <a href="https://credentials.nus.edu.sg/5f60d620-fa3c-4461-aec2-edf3908ee02c">Networking and Distributed Systems Focus Area (Distinction)</a>
+              </Typography>
+              <Typography
+                variant="subtitle2"
+                color="textSecondary"
+              >
+                <a href="https://credentials.nus.edu.sg/93955450-1da5-4a83-aacd-7ecbb216c1e8">Programming Languages Focus Area (Distinction)</a>
               </Typography>
               <Typography
                 variant="subtitle2"
