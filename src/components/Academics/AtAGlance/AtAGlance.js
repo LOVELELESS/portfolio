@@ -76,7 +76,7 @@ const AtAGlance = () => {
                 variant="subtitle2"
                 color="textSecondary"
               >
-                <a href="https://credentials.nus.edu.sg/9c9c8592-58f2-4cf2-b877-46fbb64e8dfd">Dean's List AY20/21 Semester 2</a>
+                <a href="https://credentials.nus.edu.sg/71120277-1312-4e71-b2fc-89d7a7f0e918">Dean's List AY21/22 Semester 2</a>
               </Typography>
               <Typography
                 variant="subtitle2"
@@ -88,7 +88,7 @@ const AtAGlance = () => {
                 variant="subtitle2"
                 color="textSecondary"
               >
-                <a href="https://credentials.nus.edu.sg/71120277-1312-4e71-b2fc-89d7a7f0e918">Dean's List AY21/22 Semester 2</a>
+                <a href="https://credentials.nus.edu.sg/9c9c8592-58f2-4cf2-b877-46fbb64e8dfd">Dean's List AY20/21 Semester 2</a>
               </Typography>
             </CardContent>
             <CardActions className="AtAGlance-EP-CardActions">
