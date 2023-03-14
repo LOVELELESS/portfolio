@@ -43,7 +43,7 @@ const Academics = () => {
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <div className="Academics-Modules-EP-Summary1">
             <Typography variant="h5" color="primary">
-              Notable modules taken
+              Notable courses taken
             </Typography>
           </div>
         </ExpansionPanelSummary>

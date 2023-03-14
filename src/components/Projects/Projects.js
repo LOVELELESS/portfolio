@@ -11,7 +11,6 @@ const Projects = () => {
     <div>
       <OContract />
       <Markbind />
-      <Rachel />
       <AlgoVisualizer />
       <Milkomeda />
     </div>
