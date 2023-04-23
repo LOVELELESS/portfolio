@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.880fc28a.css",
-    "main.js": "/static/js/main.d0bbf6f1.js",
-    "static/media/app-universal-release.apk": "/static/media/app-universal-release.d743c1b3b370355b39d1.apk",
-    "static/media/Rayson_CVE-2019-0708-REDACTED.pdf": "/static/media/Rayson_CVE-2019-0708-REDACTED.679cd2f2d60ea4cb734d.pdf",
-    "static/media/profile_pic.jpg": "/static/media/profile_pic.711d7453b400ed1f6c86.jpg",
-    "static/media/bluekeep.jpeg": "/static/media/bluekeep.d9c159fb5ea593530ccc.jpeg",
-    "static/media/ccna_cert.pdf": "/static/media/ccna_cert.33f306bae3a026be987a.pdf",
-    "static/media/AlgoVisualizer_better.jpg": "/static/media/AlgoVisualizer_better.e413bb15fd8072f8fb9b.jpg",
-    "static/media/govtech.png": "/static/media/govtech.3d1073ef9ea3dcdd6dae.png",
-    "static/media/Signin.png": "/static/media/Signin.a41c6f0b502dc10e37b1.png",
-    "static/media/ccna_routerswitching_large.jpg": "/static/media/ccna_routerswitching_large.adf2fd12db28e858e891.jpg",
-    "static/media/evantage.png": "/static/media/evantage.60930e7f72aea5fe0073.png",
-    "static/media/shopee.png": "/static/media/shopee.f4b791a832e1b8880409.png",
-    "static/media/soc.jpg": "/static/media/soc.2185d33031622e8a663a.jpg",
-    "static/media/Markbind.png": "/static/media/Markbind.e652e157530ad6b785de.png",
-    "static/media/blank.pdf": "/static/media/blank.fb246c3e89cd8dbba9a6.pdf",
-    "static/media/google.png": "/static/media/google.3ecb0cbc4741472dc873.png",
-    "static/media/OContract.png": "/static/media/OContract.e9a7a4e54f7b9decfc6a.png",
-    "index.html": "/index.html",
-    "main.880fc28a.css.map": "/static/css/main.880fc28a.css.map",
-    "main.d0bbf6f1.js.map": "/static/js/main.d0bbf6f1.js.map"
+    "main.css": "/portfolio/static/css/main.2d82adea.css",
+    "main.js": "/portfolio/static/js/main.4a3d7018.js",
+    "static/media/app-universal-release.apk": "/portfolio/static/media/app-universal-release.d743c1b3b370355b39d1.apk",
+    "static/media/Rayson_CVE-2019-0708-REDACTED.pdf": "/portfolio/static/media/Rayson_CVE-2019-0708-REDACTED.679cd2f2d60ea4cb734d.pdf",
+    "static/media/profile_pic.jpg": "/portfolio/static/media/profile_pic.711d7453b400ed1f6c86.jpg",
+    "static/media/bluekeep.jpeg": "/portfolio/static/media/bluekeep.d9c159fb5ea593530ccc.jpeg",
+    "static/media/ccna_cert.pdf": "/portfolio/static/media/ccna_cert.33f306bae3a026be987a.pdf",
+    "static/media/AlgoVisualizer_better.jpg": "/portfolio/static/media/AlgoVisualizer_better.e413bb15fd8072f8fb9b.jpg",
+    "static/media/govtech.png": "/portfolio/static/media/govtech.3d1073ef9ea3dcdd6dae.png",
+    "static/media/Signin.png": "/portfolio/static/media/Signin.a41c6f0b502dc10e37b1.png",
+    "static/media/ccna_routerswitching_large.jpg": "/portfolio/static/media/ccna_routerswitching_large.adf2fd12db28e858e891.jpg",
+    "static/media/evantage.png": "/portfolio/static/media/evantage.60930e7f72aea5fe0073.png",
+    "static/media/shopee.png": "/portfolio/static/media/shopee.f4b791a832e1b8880409.png",
+    "static/media/soc.jpg": "/portfolio/static/media/soc.2185d33031622e8a663a.jpg",
+    "static/media/Markbind.png": "/portfolio/static/media/Markbind.e652e157530ad6b785de.png",
+    "static/media/blank.pdf": "/portfolio/static/media/blank.fb246c3e89cd8dbba9a6.pdf",
+    "static/media/google.png": "/portfolio/static/media/google.3ecb0cbc4741472dc873.png",
+    "static/media/OContract.png": "/portfolio/static/media/OContract.e9a7a4e54f7b9decfc6a.png",
+    "index.html": "/portfolio/index.html",
+    "main.2d82adea.css.map": "/portfolio/static/css/main.2d82adea.css.map",
+    "main.4a3d7018.js.map": "/portfolio/static/js/main.4a3d7018.js.map"
   },
   "entrypoints": [
-    "static/css/main.880fc28a.css",
-    "static/js/main.d0bbf6f1.js"
+    "static/css/main.2d82adea.css",
+    "static/js/main.4a3d7018.js"
   ]
 }
