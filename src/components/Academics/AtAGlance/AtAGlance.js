@@ -52,7 +52,7 @@ const AtAGlance = () => {
                 with a Minor in Mathematics
               </Typography>
               <Typography variant="subtitle1" color="secondary" gutterBottom>
-                GPA: 4.83 / 5.00
+                GPA: 4.84 / 5.00
               </Typography>
               <Typography
                 variant="subtitle2"
