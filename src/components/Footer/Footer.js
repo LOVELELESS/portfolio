@@ -46,7 +46,7 @@ const Footer = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="mailto:rayson.rk.koh@gmail.com"
+          href="mailto:lessors.starry-0p@icloud.com"
           onClick={(e) =>
             ReactGA.event({
               category: 'Visit contact info',
